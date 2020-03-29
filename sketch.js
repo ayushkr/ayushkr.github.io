@@ -9,11 +9,17 @@ var totalInput;
 
 // Keep list of DOM elements for clearing later when reloading
 var listItems = [];
-var database;
+var database,points_db;
+var drawing= [];
+var idLast;
+var pointG;
+
+var ball;
 
 function setup() {
-
-const config = {
+ stroke(100);
+    strokeWeight(4);
+var config = {
   apiKey: "AIzaSyAShXegJqba0Xzv4GnFIEPhUfXhxdB5gmY",
   authDomain: "game-of-covid.firebaseapp.com",
   databaseURL: "https://game-of-covid.firebaseio.com",
@@ -25,71 +31,129 @@ const config = {
 };
   firebase.initializeApp(config);
   database = firebase.database();
-
-  // Input fields
-  fruitInput = select('#fruit');
-  totalInput = select('#total');
-
-  // Submit button
-  var submit = select('#submit');
-  submit.mousePressed(sendToFirebase);
-
+ createCanvas(720, 400);
   // Start loading the data
   loadFirebase();
 }
 
 function loadFirebase() {
-  var ref = database.ref("fruits");
-  ref.on("value", gotData, errData);
+    points_db = database.ref("points");
+  points_db.on("value", gotData_p, errData);
+    
 }
+var pDown,pUp;
+
+function mouseDragged() {
+//     background(120);
+  line(pDown.x,pDown.y,mouseX,mouseY);
+//    pointG.x=pointG.x+10;
+    
+//     var p = database.ref("points/-M3_xLa1WJebYcMcK5dF").set(pointG, finished);
+}
+
+
+
+function mouseMoved(){
+     
+    
+}
+
+function mouseReleased() {
+//      background(120);
+     var pUp={
+            x:mouseX,
+            y:mouseY
+        }
+   
+    
+    var dx=-pDown.x+pUp.x;
+     var dy=-pDown.y+pUp.y;
+    console.log(dx);
+     line(pDown.x,pDown.y,pUp.x,pUp.y);
+    
+//       var p = database.ref("points/-M3_xLa1WJebYcMcK5dF").set(point, finished);
+    if(ball){
+    if(abs(dx)>10){
+        ball.x=ball.x+dx/10;
+    }
+     if(abs(dy)>10){
+        ball.y=ball.y+dy/10;
+    }
+
+        
+          
+             var p = database.ref("points/ball").set(ball, finished);
+        
+}
+   
+    
+}
+
+function mousePressed() {
+    pDown={
+            x:mouseX,
+            y:mouseY
+        }
+
+}
+
+
+
+function gotData_p(data) {
+    
+      background(120);
+  var points = data.val();
+  // Grab all the keys to iterate over the object
+  var keys = Object.keys(points);
+
+
+  // Loop through array
+  for (var i = 0; i < keys.length; i++) {
+      
+    var key = keys[i];
+       var point = points[key];
+      console.log("point="+JSON.stringify(point));
+       idLast=key;
+      
+      if(key==("ball")){
+          ball=point;
+//          console.log("key="+key);
+          fill(150,2,2);
+           stroke(150,2,2);
+            ellipse(point.x, point.y, 10, 10);
+      }else{
+          fill(100,10,199);
+          
+//           rect(point.x+5, point.y, 30, 5);
+             ellipse(point.x, point.y, 10, 10);
+          stroke(200);
+          fill(200);
+          textAlign(CENTER);
+      text(point.name,point.x, point.y-10);
+          
+      }
+      
+         
+   
+
+      
+      
+      
+      pointG=point;
+      
+  }
+    
+
+}
+
 
 function errData(error) {
   console.log("Something went wrong.");
   console.log(error);
 }
 
-// The data comes back as an object
-function gotData(data) {
-  var fruits = data.val();
-  // Grab all the keys to iterate over the object
-  var keys = Object.keys(fruits);
 
-  // clear previous HTML list
-  clearList();
 
-  // Make an HTML list
-  var list = createElement('ol');
-  list.parent('data');
-
-  // Loop through array
-  for (var i = 0; i < keys.length; i++) {
-    var key = keys[i];
-    var fruit = fruits[key];
-    var li = createElement('li', fruit.fruit + ': ' + fruit.total + ", key: " + key);
-    li.parent(list);
-    listItems.push(li);
-  }
-}
-
-// Clear everything
-function clearList() {
-  for (var i = 0; i < listItems.length; i++) {
-    listItems[i].remove();
-  }
-}
-
-// This is a function for sending data
-function sendToFirebase() {
-  var fruits = database.ref('fruits');
-
-  // Make an object with data in it
-  var data = {
-    fruit: fruitInput.value(),
-    total: totalInput.value()
-  }
-
-  var fruit = fruits.push(data, finished);
-  console.log("Firebase generated key: " + fruit.key);
 
   // Reload the data for the page
   function finished(err) {
@@ -100,4 +164,4 @@ function sendToFirebase() {
       console.log('Data saved successfully');
     }
   }
-}
+
