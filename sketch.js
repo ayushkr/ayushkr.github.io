@@ -1,12 +1,12 @@
 
-
 // Keep list of DOM elements for clearing later when reloading
 var listItems = [];
 var database,points_db;
 var drawing= [];
 var idLast;
 var pointG;
-
+ var screenWidtha=360;
+     var screenHeighta=640;
 var ball;
 
 function setup() {
@@ -24,31 +24,23 @@ var config = {
 };
   firebase.initializeApp(config);
   database = firebase.database();
- createCanvas(360,640);
+   
+ createCanvas(screenWidtha,screenHeighta);
   // Start loading the data
   loadFirebase();
 }
 
 function loadFirebase() {
     points_db = database.ref("points");
-  points_db.on("value", gotData_p, errData);
-    
+  points_db.on("value", gotData_p, errData);   
 }
 var pDown,pUp;
 
 function mouseDragged() {
-//     background(120);
   line(pDown.x,pDown.y,mouseX,mouseY);
-//    pointG.x=pointG.x+10;
-    
-//     var p = database.ref("points/-M3_xLa1WJebYcMcK5dF").set(pointG, finished);
+
 }
-
-
-
 function mouseMoved(){
-     
-    
 }
 
 function mouseReleased() {
@@ -58,7 +50,6 @@ function mouseReleased() {
             y:mouseY
         }
    
-    
     var dx=-pDown.x+pUp.x;
      var dy=-pDown.y+pUp.y;
     console.log(dx);
@@ -75,11 +66,11 @@ function mouseReleased() {
         ball.y=ball.y+dy/10;
     }
 
-        
-        if((ball.x>0) && (ball.y>0)){
-             var p = database.ref("points/ball").set(ball, finished);
+        if((ball.x<=0) || (ball.x>=screenWidtha) ||  (ball.y<=0) || (ball.y>=screenHeighta) ){
+             ball.x=screenWidtha/2;
+            ball.y=screenHeighta/2;
         }
-        
+        var p = database.ref("points/ball").set(ball, finished);
 }
    
     
@@ -93,15 +84,11 @@ function mousePressed() {
 
 }
 
-
-
 function gotData_p(data) {
-    
       background(120);
   var points = data.val();
   // Grab all the keys to iterate over the object
   var keys = Object.keys(points);
-
 
   // Loop through array
   for (var i = 0; i < keys.length; i++) {
@@ -128,28 +115,15 @@ function gotData_p(data) {
       text(point.name,point.x, point.y-10);
           
       }
-      
-         
-   
 
-      
-      
-      
-      pointG=point;
-      
+      pointG=point; 
   }
-    
-
 }
-
 
 function errData(error) {
   console.log("Something went wrong.");
   console.log(error);
 }
-
-
-
 
   // Reload the data for the page
   function finished(err) {
