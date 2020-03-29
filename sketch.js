@@ -1,6 +1,5 @@
 
 
-
 // Keep list of DOM elements for clearing later when reloading
 var listItems = [];
 var database,points_db;
@@ -25,7 +24,7 @@ var config = {
 };
   firebase.initializeApp(config);
   database = firebase.database();
- createCanvas(360, 640);
+ createCanvas(360,640);
   // Start loading the data
   loadFirebase();
 }
@@ -67,6 +66,8 @@ function mouseReleased() {
     
 //       var p = database.ref("points/-M3_xLa1WJebYcMcK5dF").set(point, finished);
     if(ball){
+        
+        
     if(abs(dx)>10){
         ball.x=ball.x+dx/10;
     }
@@ -75,8 +76,9 @@ function mouseReleased() {
     }
 
         
-          
+        if((ball.x>0) && (ball.y>0)){
              var p = database.ref("points/ball").set(ball, finished);
+        }
         
 }
    
