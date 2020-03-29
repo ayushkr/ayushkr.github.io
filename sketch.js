@@ -25,7 +25,7 @@ var config = {
 };
   firebase.initializeApp(config);
   database = firebase.database();
- createCanvas(720, 400);
+ createCanvas(360, 640);
   // Start loading the data
   loadFirebase();
 }
