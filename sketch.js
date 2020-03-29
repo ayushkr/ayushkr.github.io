@@ -5,8 +5,8 @@ var database,points_db;
 var drawing= [];
 var idLast;
 var pointG;
- var screenWidtha=360;
-     var screenHeighta=640;
+ var screenWidtha=360*2;
+     var screenHeighta=640*2;
 var ball;
 
 function setup() {
