@@ -1,11 +1,5 @@
-// A2Z F16
-// Daniel Shiffman
-// http://shiffman.net/a2z
-// https://github.com/shiffman/A2Z-F16
 
-// Get input from user
-var fruitInput;
-var totalInput;
+
 
 // Keep list of DOM elements for clearing later when reloading
 var listItems = [];
