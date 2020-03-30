@@ -32,13 +32,14 @@ function setup() {
     createCanvas(screenWidtha,screenHeighta);
     // Start loading the data
     loadFirebase();
-input
-inputName
+
     inputName = createInput();
     inputName.position(0, 0);
+    inputName.value("sasi");
     
     input = createInput();
     input.position(inputName.x + inputName.width, 0);
+     input.value("13");
 
     let  button = createButton('submit');
     button.position(input.x + input.width, 0);
@@ -70,7 +71,7 @@ function mouseMoved(){
 function mouseReleased() {
     playerCode= input.value();
     console.log("playerCode="+playerCode); 
-    //     var p = database.ref("points/now").set({name:""}, finished);
+    
     //      background(120);
     var pUp={
         x:mouseX,
@@ -112,6 +113,8 @@ function mouseReleased() {
 
         //            drawGroundEtc();
 
+    }else{
+             var p = database.ref("points/now").set({name:""}, finished);
     }
 
 
@@ -142,12 +145,12 @@ function drawGroundEtc(){
          fill(0);
         rect(screenWidtha/2-50,0,100,50);
             fill(200);
-         text("Team Red",screenWidtha/2-50,40);  
+         text("Team Red",screenWidtha/2,40);  
          
         fill(0);
          rect(screenWidtha/2-50,screenHeighta-50,100,50);
          fill(200);
-         text("Team Blue",screenWidtha/2-50,screenHeighta-20); 
+         text("Team Blue",screenWidtha/2,screenHeighta-20); 
 
     }
 
@@ -205,6 +208,7 @@ function finished(err) {
         console.log(err);
     } else {
         console.log('Data saved successfully');
+         drawGroundEtc();
     }
 }
 //storeItem('myText', myText);
