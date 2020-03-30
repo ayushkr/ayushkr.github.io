@@ -75,7 +75,7 @@ function mouseMoved(){
 
 function mouseReleased() {
     playerCode= input.value();
-    console.log("playerCode="+playerCode); 
+   console.log("playerCode="+playerCode); 
     
     //      background(120);
     var pUp={
@@ -170,7 +170,7 @@ function drawGroundEtc(){
     for (var i = 0; i < keys.length; i++) {
         var key = keys[i];
         var point = points[key];
-        console.log(key+"="+JSON.stringify(point));
+//        console.log(key+"="+JSON.stringify(point));
         idLast=key;
 
         if(key==("ball")){
