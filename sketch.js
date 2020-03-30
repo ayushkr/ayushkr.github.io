@@ -13,7 +13,9 @@ var playerThis;
 var playerCode=0;
 var playerName="---";
 let  input,inputName;
+var info="changes are ";
 function setup() {
+     textAlign(CENTER);
     stroke(100);
     strokeWeight(4);
     var config = {
@@ -43,15 +45,18 @@ function setup() {
 
     let  button = createButton('submit');
     button.position(input.x + input.width, 0);
-    button.mousePressed(mySelectEvent);
+    button.mousePressed(playerChanged);
 
-    //   playerCode= getItem('playerCode');
+   
 
 }
 
-function mySelectEvent() {
-    console.log('changed ');
+function playerChanged() {
+    var old=playerCode;
+   
     playerCode= input.value();
+    info+='\n '+old+"  to "+playerCode;
+     console.log(info);
     playerName=inputName.value();
     //    storeItem('playerCode', playerCode);
 }
@@ -107,6 +112,9 @@ function mouseReleased() {
         if((ball.x<=0) || (ball.x>=screenWidtha) ||  (ball.y<=0) || (ball.y>=screenHeighta) ){
             ball.x=screenWidtha/2;
             ball.y=screenHeighta/2;
+            var p = database.ref("points/ball").set(ball, finished);
+//            playerThis.x=0;
+//                 playerThis.y=screenHeighta/2;
         }
         playerThis.name=playerName;
         var p = database.ref("points/p_"+playerCode).set(playerThis, finished);
@@ -139,19 +147,20 @@ function gotData_p(data) {
 
 function drawGroundEtc(){
     background(120);
+    text(info,10,20); 
     //    drawPost
     {
          stroke(200);
          fill(0);
         rect(screenWidtha/2-50,0,100,50);
             fill(200);
-         text("Team Red",screenWidtha/2,40);  
+         text("Team Red",screenWidtha/2-40,40);  
          
         fill(0);
          rect(screenWidtha/2-50,screenHeighta-50,100,50);
          fill(200);
-         text("Team Blue",screenWidtha/2,screenHeighta-20); 
-
+         text("Team Blue",screenWidtha/2-40,screenHeighta-20); 
+   line(0,screenHeighta/2,screenWidtha,screenHeighta/2);
     }
 
     // Grab all the keys to iterate over the object
@@ -183,7 +192,7 @@ function drawGroundEtc(){
 
             stroke(200);
             fill(200);
-            textAlign(CENTER);
+           
             var name=split(key, '_')[1];
             //          
             name=point.name;
