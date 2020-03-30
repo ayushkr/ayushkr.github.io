@@ -138,7 +138,16 @@ function drawGroundEtc(){
     background(120);
     //    drawPost
     {
+         stroke(200);
+         fill(0);
         rect(screenWidtha/2-50,0,100,50);
+            fill(200);
+         text("Team Red",screenWidtha/2-50,40);  
+         
+        fill(0);
+         rect(screenWidtha/2-50,screenHeighta-50,100,50);
+         fill(200);
+         text("Team Blue",screenWidtha/2-50,screenHeighta-20); 
 
     }
 
