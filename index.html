@@ -7,8 +7,8 @@
         <link rel="stylesheet" href="./d_files/w3.css">
         <link rel="stylesheet" href="./d_files/css">
         <link rel="stylesheet" href="./d_files/font-awesome.min.css">
-        <script src="/js/hls.js"></script>
-        <script src="/js/angular.min.js"></script>
+        <script src="./js/hls.js"></script>
+        <script src="./js/angular.min.js"></script>
         <style>
             :root {
                 --blue: #1e90ff;
@@ -132,7 +132,7 @@
                 console.log('videoLoad');
                 video = document.getElementById('video');
                 //  var videoSrc = 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
-                var videoSrc = "/videos/" + quality + "/" + num + "/output.m3u8";
+                var videoSrc = "./videos/" + quality + "/" + num + "/output.m3u8";
                 //
                 // First check for native browser HLS support
                 //
@@ -241,7 +241,7 @@
 
                     <div class="" style="background-color:#bbb; width:-webkit-fill-available;">
                         <!--video-->
-                        <video id="video"  poster="videos/thumbnails/{{src}}.jpg"  style="width: 100%;"
+                        <video id="video"  poster="./videos/thumbnails/{{src}}.jpg"  style="width: 100%;"
                                ng-click="togglePlay()" autoplay="autoplay"
                                >
                         </video>
@@ -250,10 +250,10 @@
 
                         <!--scenes-->
                         <div class="" style="position: relative; display: none">
-                            <img class="bottomMargin" src="/w3images/scene-01.jpg" alt="" style="width:100%">
+<!--                            <img class="bottomMargin" src="/w3images/scene-01.jpg" alt="" style="width:100%">
                             <img class="bottomMargin" src="/w3images/scene-02.jpg" alt="" style="width:100%">
                             <img class="bottomMargin" src="/w3images/scene-01.jpg" alt="" style="width:100%">
-                            <img class="bottomMargin" src="/w3images/scene-02.jpg" alt="" style="width:100%">
+                            <img class="bottomMargin" src="/w3images/scene-02.jpg" alt="" style="width:100%">-->
                             <!--<div style="height: 140px"></div>-->
                         </div>
                     </div>
@@ -274,10 +274,10 @@
                 <div style="height: var(--topBarHeight)" ></div>
 
                 <div id="id1" class="w3-half" >
-                    <img ng-src="/videos/thumbnails/{{x.src}}.jpg" alt="" style="width:100%"  ng-click="theatre(x)" ng-repeat="x in objects.left" >
+                    <img ng-src="./videos/thumbnails/{{x.src}}.jpg" alt="" style="width:100%"  ng-click="theatre(x)" ng-repeat="x in objects.left" >
                 </div>   
                 <div id="id2" class="w3-half" >
-                    <img ng-src="/videos/thumbnails/{{x.src}}.jpg" alt="" style="width:100%"  ng-click="theatre(x)" ng-repeat="x in objects.right" >
+                    <img ng-src="./videos/thumbnails/{{x.src}}.jpg" alt="" style="width:100%"  ng-click="theatre(x)" ng-repeat="x in objects.right" >
                 </div>  
                 <!--                <div class="w3-half">
                 
