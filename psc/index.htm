@@ -1,20 +1,64 @@
 <!DOCTYPE html>
 <html>
-<title>PSC</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
+    <title>PSC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<div class="w3-container">
-  <h2>Question Papers </h2>
-  <p>
-      Mark your Answers and get Estimated Your Performance.; 
-  </p>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database-compat.js"></script>
+    <body>
 
-  <div class="w3-panel w3-card w3-yellow"><p>w3-card</p></div>
-  <div class="w3-panel w3-card-2 w3-yellow"><p>w3-card-2</p></div>
-  <div class="w3-panel w3-card-4 w3-yellow"><p>w3-card-4</p></div>
-</div>
+        <div class="w3-container">
+            <h2>Question Papers </h2>
+            <p>
+                Mark your Answers and get Estimated Your Performance.; 
+            </p>
 
-</body>
+            <div class="w3-panel w3-card w3-yellow"><p>w3-card</p></div>
+            <div class="w3-panel w3-card-2 w3-yellow"><p>w3-card-2</p></div>
+            <div class="w3-panel w3-card-4 w3-yellow"><p>w3-card-4</p></div>
+        </div>
+        
+        <div id="post"> posts</div>
+
+        <script>
+            var postElement=document.getElementById("post");
+            // Initialize Firebase
+            // TODO: Replace with your project's customized code snippet
+            const firebaseConfig = {
+                apiKey: "AIzaSyC-OFpNdpfInnYgUUxmmYMTK_AAYg15e5k",
+                authDomain: "psc-github-2024.firebaseapp.com",
+                projectId: "psc-github-2024",
+                storageBucket: "psc-github-2024.appspot.com",
+                messagingSenderId: "357177257933",
+                appId: "1:357177257933:web:9e4762fd23c89e03adde84",
+                 databaseURL: 'https://psc-github-2024-default-rtdb.asia-southeast1.firebasedatabase.app',
+                measurementId: "G-RK6VDL6S5G"
+            };
+            firebase.initializeApp(firebaseConfig);
+
+            // Get a reference to the database service
+            var database = firebase.database();
+
+var postId="c";
+            // update the variable when the starCount is changed in the database
+            var starCountRef = database.ref('posts/' + postId + '/starCount');
+            starCountRef.on('value', function (snapshot) {
+                updateStarCount(postElement, snapshot.val());
+            });
+
+            // update the UI
+            function updateStarCount(el, val) {
+//                console.log("val="+val);
+//                console.log(el);
+                el.innerText=`${val} Stars!`;
+            }
+        </script> 
+
+
+
+    </body>
 </html>
