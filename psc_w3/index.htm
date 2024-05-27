@@ -2,142 +2,46 @@
 <html>
     <title>SRI PSC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        :root {
-            --blue: #1e90ff;
-            --white: #ffffff;
-            --topBarHeight:40px;
-        }
 
-    </style>
-    <link rel="stylesheet" href="/css/w3/w3.css">
-    <link rel="stylesheet" href="/css/material/symbols/outlined.css">
     <script src="../js/w3/w3ay.js"></script>
+    <script src="../js/vue/vue.min.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database-compat.js"></script>
+
+    <script src="./firebase_real.js"></script>
+    <script src="./firebase_user.js"></script>
+    <script src="./sidebar.js"></script>
+  
+    <!--cd total-->
     <script>
+        var vue;
+//        var obj = 0;
+        w3.includeHTML2("page0.html", () => {
+            w3.getHttpObject("page0.json", (o) => {
+//                obj = o;
+//                w3.displayObject("main", o);
+                vue = new Vue({
+                    el: '#main',
+//                    data:o,
+                    data: {
+                        items: [{message: 'Foo'}, {message: 'Bar'}],
+                        updates: 10
+                    },
+                    a: 1
+                });
+
+            });
+
+        });
+
 
     </script>
 
 
-    <!--    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth-compat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-firestore-compat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database-compat.js"></script>
-    
-        <script src="./firebase_real.js"></script>
-        <script src="./firebase_user.js"></script>
-        <script src="./sidebar.js"></script>-->
-    <style>
-        .marked {
-            background-color: orange;
-            font-size: 30px;
-            padding: 16px;
-            color: white;
-        }
 
-
-    </style>
-
-    <body  onload2="firebase_add_listeners()"  >
-
-        <!-- Sidebar -->
-        <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none;z-index: 11" id="mySidebar">
-            <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-            <a href="#" class="w3-bar-item w3-button">Timetable</a>
-            <a href="#!flex" class="w3-bar-item w3-button">flex </a>
-            <a href="#!firebase_test" class="w3-bar-item w3-button">firebase_test </a>
-            <a href="#!qp_test" class="w3-bar-item w3-button">qp_test </a>
-            <a href="#!qp_list" class="w3-bar-item w3-button">Qp </a>
-
-            <a href="/index.html" class="w3-bar-item w3-button">Exit </a>
-        </div>
-
-        <!--topbar-->
-        <div id="appVue" class="w3-top" style="z-index: 10">
-            <div class="w3-bar w3-black" style="height: var(--topBarHeight)" >
-                <a href="#" class="w3-bar-item w3-button w3-gray" onclick="w3_open()">
-                    <!--<i class="fa fa-bars"></i>--> 
-                    <span class="material-symbols-outlined">
-                        menu
-                    </span>  
-                </a>
-
-                <a href="#/!" class="w3-bar-item  w3-button">SRI PSC </a>
-
-                <a href="#" class="w3-bar-item w3-button" style="float: right" onclick="signOutGoogle()()">
-                    <span class="material-symbols-outlined">logout</span>
-                </a>
-                <span id="user"  class="w3-bar-item"  style="float: right" onclick="signInGoogle()">Sign In</span>
-                <span id="post" class="w3-bar-item w3-button" style="float: right">
-
-                    updates <span class="w3-badge w3-red">{{updates}}</span>
-                </span>
-
-                <span > Do {{updates}} a={{a}}</span>
-            </div>
-        </div>
-
-        <div 
-            style="top:var(--topBarHeight);position: absolute;border: 1px ;width:100%;height: 100%;z-index: 0">
-
-            <!--<div w3-include-html="example_slideshow.html"></div>-->
-            <!--<div w3-include-html="example_table_filter_sort.html"></div>-->
-            <!--<div w3-include-html="example_list_filter_sort.html"></div>-->
-            <!--<div w3-include-html="example_hide.html"></div>-->
-            <!--<div w3-include-html="example_displayObject.html"></div>-->
-
-
-
-            <!--controller uppercase-->
-            <!--            <script>
-                            w3.includeHTML2("example_controllers.html", () => {
-                                w3.getHttpObject("customers.json", myFunction);
-            
-                                function myFunction(obj) {
-                                    var i;
-                                    var myArray = obj.customers;
-                                    for (i = 0; i < myArray.length; i++) {
-                                        myArray[i]["CustomerName"] =
-                                                myArray[i]["CustomerName"].toUpperCase();
-                                    }
-                                    w3.displayObject("id_controller_01", obj);
-                                }
-                            });
-                        </script>-->
-
-            <!--obj-->
-            <!--            <script>
-                            w3.includeHTML2("example_displayObject.html", () => {
-                                methods();
-                            });
-            
-                            w3.includeHTML(() => {
-                                if (typeof init_slides !== "undefined") {
-                                    init_slides();
-                                }
-                            });
-            
-                            w3.includeHTML();
-                        </script>-->
-
-            <!--cd total-->
-            <script>
-                w3.includeHTML2("example_cd.html", () => {
-                    w3.getHttpObject("cd_catalog.json", (o) => {
-                        var total=0;
-                        for(var i=0;i<o.cd.length;i++){
-                            total+=Number(o.cd[i].price);
-                        }
-//                         o.total=total;
-                        o.total=total.toFixed(2);
-                        w3.displayObject("table_cd", o);
-
-                    });
-
-                });
-            </script>
-
-        </div>
-
-    </body>
 </html> 

@@ -1,0 +1,44 @@
+
+<link rel="stylesheet" href="definitions.css">
+<link rel="stylesheet" href="/css/w3/w3.css">
+<link rel="stylesheet" href="/css/material/symbols/outlined.css">
+<link rel="stylesheet" href="/css/w3/w3.css">
+<body onload='firebase_add_listeners()'  >
+
+    <div id="main">
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none;z-index: 11" id="mySidebar">
+            <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+            <a href="#" class="w3-bar-item w3-button">Timetable</a>
+
+
+            <a href="/index.html" class="w3-bar-item w3-button">Exit </a>
+        </div>
+
+        <!--topbar-->
+        <div  class="w3-top" style="z-index: 10">
+            <div class="w3-bar w3-black" style="height: var(--topBarHeight)" >
+                <a href="#" class="w3-bar-item w3-button w3-gray" onclick="w3_open()">
+                    <!--<i class="fa fa-bars"></i>--> 
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>  
+                </a>
+
+                <a href="#/!" class="w3-bar-item  w3-button">SRI PSC </a>
+
+                <a href="#" class="w3-bar-item w3-button" style="float: right" onclick="signOutGoogle()()">
+                    <span class="material-symbols-outlined">logout</span>
+                </a>
+                <span id="user"  class="w3-bar-item"  style="float: right" onclick="signInGoogle()">Sign In</span>
+                <span id="post" class="w3-bar-item w3-button" style="float: right">
+                    updates <span class="w3-badge w3-red">{{updates}}</span>
+                    
+                </span>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>

@@ -34,7 +34,7 @@ function  firebase_add_listeners() {
 function updateStarCount(el, val) {
 //    console.log("val=" + val);
 //    console.log(el);
-//    scope.updates = val;
+    vue.updates = val;
 //    el.innerText = `${val} Stars!`;
 }
 

@@ -2,3 +2,9 @@
 .city {
 background-color: lightblue;
 }
+.marked {
+            background-color: orange;
+            font-size: 30px;
+            padding: 16px;
+            color: white;
+        }
