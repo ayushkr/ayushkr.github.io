@@ -12,7 +12,9 @@ function  firebase_add_listeners() {
     var postId = "c";
 // update the variable when the starCount is changed in the database
     var starCountRef = database.ref('posts/' + postId + '/starCount');
+     
     starCountRef.on('value', function (snapshot) {
+//        console.log(snapshot);
         var postElement = document.getElementById("post");
         updateStarCount(postElement, snapshot.val());
     });
@@ -25,7 +27,7 @@ function  firebase_add_listeners() {
 //        el: '#app',
 //        data: {message: 'Hello Vue 2!'}
 //    });
-
+    console.log("added listener on firebase");
 
 }
 
@@ -33,13 +35,13 @@ function  firebase_add_listeners() {
 
 // update the UI
 function updateStarCount(el, val) {
-//                console.log("val="+val);
-//                console.log(el);
+//    console.log("val=" + val);
+//    console.log(el);
     el.innerText = `${val} Stars!`;
 }
 
 
-function  google_signin() {
+function  signInGoogle() {
     const auth = firebase.auth();
     var provider = new firebase.auth.GoogleAuthProvider();
 //                provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
@@ -70,11 +72,12 @@ function  google_signin() {
 
 }
 
-function signout_google() {
+function signOutGoogle() {
     firebase.auth().signOut().then(() => {
         // Sign-out successful.
         console.log("sign out done");
-        alert("sign out done");
+//        alert("sign out done");
+        document.getElementById('user').innerText = "Sign In";
     }).catch((error) => {
         // An error happened.
     });

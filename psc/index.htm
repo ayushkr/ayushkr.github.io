@@ -42,35 +42,30 @@
             <a href="#!flex" class="w3-bar-item w3-button">flex </a>
             <a href="#!firebase_test" class="w3-bar-item w3-button">firebase_test </a>
             <a href="#!qp_test" class="w3-bar-item w3-button">qp_test </a>
+            <a href="#!qp_list" class="w3-bar-item w3-button">Qp </a>
 
-            <button onclick="google_signin()" class="w3-bar-item w3-button">google Sign in</button>
-
-
+            <a href="/index.html" class="w3-bar-item w3-button">Exit </a>
         </div>
 
 
         <!--topbar-->
         <div class="w3-top" style="z-index: 10">
             <div class="w3-bar w3-black" style="height: var(--topBarHeight)" >
-                <a href="#" class="w3-bar-item w3-button" onclick="w3_open()">
+                <a href="#" class="w3-bar-item w3-button w3-gray" onclick="w3_open()">
                     <!--<i class="fa fa-bars"></i>--> 
                     <span class="material-symbols-outlined">
                         menu
                     </span>  
                 </a>
-                <span class="w3-bar-item ">SRI PSC</span>
-                <a href="#/!" class="w3-bar-item w3-button">Home </a>
-               <a href="/index.html" class="w3-bar-item w3-button">Home0 </a>
-                <a href="#!qp_list" class="w3-bar-item w3-button">Qp </a>
 
-                 
-                
-                <a href="#" class="w3-bar-item w3-button" style="float: right" onclick="signout_google()">
+                <a href="#/!" class="w3-bar-item  w3-button">SRI PSC </a>
+
+                <a href="#" class="w3-bar-item w3-button" style="float: right" onclick="signOutGoogle()()">
                     <span class="material-symbols-outlined">logout</span>
                 </a>
-                 <span id="user"  class="w3-bar-item"  style="float: right" onclick="google_signin()">Sign In</span>
+                <span id="user"  class="w3-bar-item"  style="float: right" onclick="signInGoogle()">Sign In</span>
                 <span id="post" class="w3-bar-item w3-button" style="float: right"> posts</span>
-                
+
             </div>
         </div>
 
