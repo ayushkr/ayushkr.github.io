@@ -45,7 +45,7 @@ app.controller('ctrl1', function ($scope, $http) {
 //    $http.get("QP/068_21/o.json").then(function (response) {
 //        $scope.qp = response.data;
 //    });
-
+// $scope.updates=2;
 
 
     $scope.loadFile = function (element_id, path) {

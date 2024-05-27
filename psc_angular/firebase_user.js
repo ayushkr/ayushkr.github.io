@@ -2,9 +2,10 @@ var firebase;
 var database;
 var user;
 
-var myObject;
+
 
 function  firebase_add_listeners() {
+
     firebase = firebase_init();
 // Get a reference to the database service
     database = firebase.database();
@@ -12,7 +13,7 @@ function  firebase_add_listeners() {
     var postId = "c";
 // update the variable when the starCount is changed in the database
     var starCountRef = database.ref('posts/' + postId + '/starCount');
-     
+
     starCountRef.on('value', function (snapshot) {
 //        console.log(snapshot);
         var postElement = document.getElementById("post");
@@ -23,10 +24,6 @@ function  firebase_add_listeners() {
         console.log(s.val());
     });
 
-//    myObject = new Vue({
-//        el: '#app',
-//        data: {message: 'Hello Vue 2!'}
-//    });
     console.log("added listener on firebase");
 
 }
@@ -37,7 +34,8 @@ function  firebase_add_listeners() {
 function updateStarCount(el, val) {
 //    console.log("val=" + val);
 //    console.log(el);
-    el.innerText = `${val} Stars!`;
+//    scope.updates = val;
+//    el.innerText = `${val} Stars!`;
 }
 
 
