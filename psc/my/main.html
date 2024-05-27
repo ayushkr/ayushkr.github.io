@@ -1,0 +1,11 @@
+<div ng-repeat="(key,row) in timetable.map" class="w3-bar  w3-border-black" style="border:1px solid grey">
+
+    <div class="w3-bar-item w3-light-gray" >{{row.code}}</div>
+    <!--{{ a = row.time.split(',')[1];}}-->
+<!--countmessage:'car'-->
+    <!--{{a}}-->
+    <div class="w3-bar-item w3-pink" style="width:300px">{{ddmmyyyy(row.time)}}</div>
+
+    <a class="w3-bar-item w3-light-green" href={{row.syllabus}} style="width:100px">syllabus</a>
+
+</div>

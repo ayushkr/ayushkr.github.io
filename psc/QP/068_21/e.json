@@ -1,0 +1,1206 @@
+{
+  "code": "068_21",
+  "CREATOR": "SRI Academy,Karuvannur,Thrissur, Phone 9567317967",
+  "questions": {
+    "1": {
+      "id": "1",
+      "question": " Cumulative errors that are proportional to ",
+      "options": {
+        "A": " √L",
+        "B": " L",
+        "C": " L2",
+        "D": " I/2"
+      },
+      "answer_correct": "A",
+      "answer_user": ""
+    },
+    "2": {
+      "id": "2",
+      "question": " _________ are the ends of the survey lines which command the boundaries of the survey",
+      "options": {
+        "A": " Tie station",
+        "B": " Main station",
+        "C": " Base line",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "3": {
+      "id": "3",
+      "question": " The offset should not be longer than ",
+      "options": {
+        "A": " 30 m",
+        "B": " 20 m",
+        "C": " 15 m",
+        "D": " 10 m"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "4": {
+      "id": "4",
+      "question": " In optical square the angle between the ﬁrst incident ray and the last reﬂected ray is _________ the angle between them the two mirrors",
+      "options": {
+        "A": " half",
+        "B": " twice",
+        "C": " same",
+        "D": " none of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "5": {
+      "id": "5",
+      "question": " For compass survey the direction from a survey station to some well deﬁned permanent object, or the ﬁrst line of survey is known as ",
+      "options": {
+        "A": " True bearing",
+        "B": " Magnet bearing",
+        "C": " Arbitrary bearing",
+        "D": " All of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "6": {
+      "id": "6",
+      "question": " The following are the bearing of the line AB and AC : AB N15 15E, AC N87 10E",
+      "options": {
+        "A": " 71° 05\u0027",
+        "B": " 71° 55\u0027",
+        "C": " 71° 15\u0027",
+        "D": " 61° 15\u0027"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "7": {
+      "id": "7",
+      "question": " The image formed on the plane of cross hair by the objective is ",
+      "options": {
+        "A": " Virtual and Inverted",
+        "B": " Magniﬁed and Inverted",
+        "C": " Real and Inverted",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "8": {
+      "id": "8",
+      "question": " The method chieﬂy used for locating the details from stations, which have been previously established by triangulation ",
+      "options": {
+        "A": " Resection",
+        "B": " Radiation",
+        "C": " Intersection",
+        "D": " Traversing"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "9": {
+      "id": "9",
+      "question": " The absence of Chromatic Aberration is known as ",
+      "options": {
+        "A": " Aplantation",
+        "B": " Achromatism",
+        "C": " Brightness",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "10": {
+      "id": "10",
+      "question": " For locating the river which method of plane table is used ? ",
+      "options": {
+        "A": " Radiation",
+        "B": " Intersection",
+        "C": " Traversing",
+        "D": " Resection"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "11": {
+      "id": "11",
+      "question": " The effect of curvature is to cause the objects sighted appear ___________ than they really are ",
+      "options": {
+        "A": " Higher",
+        "B": " Lower",
+        "C": " Same",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "12": {
+      "id": "12",
+      "question": " The effect of refraction is ",
+      "options": {
+        "A": " Not constant",
+        "B": " Constant",
+        "C": " Zero",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "13": {
+      "id": "13",
+      "question": " In total station data is stored in ",
+      "options": {
+        "A": " Pen drive",
+        "B": " Data Card",
+        "C": " Micro Processor",
+        "D": " External Hardware"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "14": {
+      "id": "14",
+      "question": " The minimum clearance kept between the Grillage beam in Grillage foundation is ",
+      "options": {
+        "A": " 7 cm",
+        "B": " 8 cm",
+        "C": " 10 cm",
+        "D": " 14 cm"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "15": {
+      "id": "15",
+      "question": " The pile anchor down the structure subjected to uplift pressure due to overturning moment   ",
+      "options": {
+        "A": " Sheet pile",
+        "B": " Uplift pile",
+        "C": " Batter pile",
+        "D": " Screw pile"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "16": {
+      "id": "16",
+      "question": " Safe permissible load on coursed rubble in cement mortar ",
+      "options": {
+        "A": " 90 T/M2",
+        "B": " 45 T/M2",
+        "C": " 88 T/M2",
+        "D": " 100 T/M2"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "17": {
+      "id": "17",
+      "question": " The depth of lintel should be ",
+      "options": {
+        "A": " 15 cm",
+        "B": " 8 cm",
+        "C": " 10 cm",
+        "D": " 20 cm"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "18": {
+      "id": "18",
+      "question": " The diameter of bar used in lintel for span 1",
+      "options": {
+        "A": " 16 mm",
+        "B": " 10 mm",
+        "C": " 6 mm",
+        "D": " 12 mm"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "19": {
+      "id": "19",
+      "question": " The sloping surface used to provide an easy connection between ﬂoor ",
+      "options": {
+        "A": " Stair",
+        "B": " Ramp",
+        "C": " Lift",
+        "D": " Escalator"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "20": {
+      "id": "20",
+      "question": " What is the alignment of cross joint along the plumb line ? ",
+      "options": {
+        "A": " Lintel",
+        "B": " Perpend",
+        "C": " Bed Block",
+        "D": " Vertical Line"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "21": {
+      "id": "21",
+      "question": " The process of ﬁlling hollow space of walls before plastering is known as ",
+      "options": {
+        "A": " Peeling",
+        "B": " Blistering",
+        "C": " Hacking",
+        "D": " Dubbing out"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "22": {
+      "id": "22",
+      "question": " Additional Pozzolana to ordinary portland cement increases ",
+      "options": {
+        "A": " Bleeding",
+        "B": " Shrinkage",
+        "C": " Permeability",
+        "D": " Heat of Hydration"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "23": {
+      "id": "23",
+      "question": " Wrought iron is manufactured from pig iron by   ",
+      "options": {
+        "A": " Reﬁning",
+        "B": " Pudding",
+        "C": " Shingling",
+        "D": " All the above"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "24": {
+      "id": "24",
+      "question": " Temporary structure to support arch during its construction ",
+      "options": {
+        "A": " Shuttering",
+        "B": " Support",
+        "C": " Post",
+        "D": " Centering"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "25": {
+      "id": "25",
+      "question": " The straight line which is generating the surface of the cone is called ",
+      "options": {
+        "A": " Generator",
+        "B": " Vertex",
+        "C": " Axis",
+        "D": " Base"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "26": {
+      "id": "26",
+      "question": " The point of contact between the focal sphere and section plane is called ",
+      "options": {
+        "A": " Vertex",
+        "B": " Axis",
+        "C": " Generator",
+        "D": " Focus"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "27": {
+      "id": "27",
+      "question": " For reducing and enlarging drawing from an available drawing without converting numerical value is called ",
+      "options": {
+        "A": " Compass",
+        "B": " Proportional Divider",
+        "C": " Set square",
+        "D": " Planimeter"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "28": {
+      "id": "28",
+      "question": " In ﬁrst angle projection object is situated ________ of the observers eye and the plane of projection",
+      "options": {
+        "A": " Infront",
+        "B": " In between",
+        "C": " None of these",
+        "D": " Both A and B"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "29": {
+      "id": "29",
+      "question": " A solid having four equal equilateral triangular faces ",
+      "options": {
+        "A": " Pyramid",
+        "B": " Tetrahedron",
+        "C": " Cone",
+        "D": " Polygon"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "30": {
+      "id": "30",
+      "question": " An actual length of 5 m of a room is represented by 25 mm length on drawing RF will be   ",
+      "options": {
+        "A": " 1 : 20",
+        "B": " 1 : 200",
+        "C": " 1 : 2000",
+        "D": " 1 : 2"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "31": {
+      "id": "31",
+      "question": " The amount of water held in the soil after excess gravitational water has been drained ",
+      "options": {
+        "A": " Wilting coefﬁcient",
+        "B": " Saturation capacity",
+        "C": " Field capacity",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "32": {
+      "id": "32",
+      "question": " The Canal located outside the command area meant primarily to convey water from one source of supply to another within the same ",
+      "options": {
+        "A": " Feeder Canal",
+        "B": " Distributory",
+        "C": " Diversion Canal",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "33": {
+      "id": "33",
+      "question": " The structure constructed at the off take of the canal adjacent to the river under sluice ",
+      "options": {
+        "A": " Diversion head work",
+        "B": " Outlet",
+        "C": " Inlet",
+        "D": " Head Regulator"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "34": {
+      "id": "34",
+      "question": " The usual capacity of tube well is _________ cumecs",
+      "options": {
+        "A": " 0.056",
+        "B": " 0.56",
+        "C": " 0.004",
+        "D": " 0.040"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "35": {
+      "id": "35",
+      "question": " Duty of an irrigation tube well is _________ than that of a canal irrigation",
+      "options": {
+        "A": " Higher",
+        "B": " Lower",
+        "C": " Same",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "36": {
+      "id": "36",
+      "question": " The property of a ﬂuid which offers resistance to the movement of one layer of ﬂuid over another layer of ﬂuid ",
+      "options": {
+        "A": " Speciﬁc Gravity",
+        "B": " Viscosity",
+        "C": " Density",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "37": {
+      "id": "37",
+      "question": " The rate of increase of pressure in a vertical direction equal to weight density of ﬂuid at that point ",
+      "options": {
+        "A": " Hooks Law",
+        "B": " Hydraulics Law",
+        "C": " Hydrostatic Law",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "38": {
+      "id": "38",
+      "question": " Piezometer is used for measuring   ",
+      "options": {
+        "A": " Velocity",
+        "B": " Pressure",
+        "C": " Temperature",
+        "D": " Viscosity"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "39": {
+      "id": "39",
+      "question": " The type of ﬂow in which the ﬂuid characteristics like velocity, pressure, density etc",
+      "options": {
+        "A": " Steady ﬂow",
+        "B": " Uniform ﬂow",
+        "C": " Compressible ﬂow",
+        "D": " Laminar ﬂow"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "40": {
+      "id": "40",
+      "question": " Command used to remove the selected object from a drawing ",
+      "options": {
+        "A": " Remove",
+        "B": " Erase",
+        "C": " Extrude",
+        "D": " All the above"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "41": {
+      "id": "41",
+      "question": " Which command create a new objects parallel to the original object ? ",
+      "options": {
+        "A": " Parallel",
+        "B": " Offset",
+        "C": " Copy",
+        "D": " Mirror"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "42": {
+      "id": "42",
+      "question": " Which command draw line that extends inﬁnity in both direction ? ",
+      "options": {
+        "A": " Line",
+        "B": " Poly line",
+        "C": " X Line",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "43": {
+      "id": "43",
+      "question": " Brick walls are measured in M2 if the thickness of the wall is ",
+      "options": {
+        "A": " 10 cm",
+        "B": " 15 cm",
+        "C": " 20 cm",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "44": {
+      "id": "44",
+      "question": " According to Indian Standard Institute the actual size of modular brick is ",
+      "options": {
+        "A": " 23*11.5*7.5 cm",
+        "B": " 25*13*7.5 cm",
+        "C": " 19*9*9 cm",
+        "D": " 20*10*10 cm"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "45": {
+      "id": "45",
+      "question": " The measurement is not made in M2 ion case of ",
+      "options": {
+        "A": " DPC",
+        "B": " Form Works",
+        "C": " Concrete Jeffries",
+        "D": " R. C. Chajja"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "46": {
+      "id": "46",
+      "question": " Due to change in price level, a revised estimate is prepared if the sanctioned estimate exceeds ",
+      "options": {
+        "A": " 2%",
+        "B": " 2.5%",
+        "C": " 4%",
+        "D": " 5%"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "47": {
+      "id": "47",
+      "question": " While preparing a detailed estimate area should be measured correct to   ",
+      "options": {
+        "A": " .01 M2",
+        "B": " .02 M2",
+        "C": " .001 M2",
+        "D": " .0001 M2"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "48": {
+      "id": "48",
+      "question": " A _________ is a set of rules that specify the standard for constructed objects such as buildings and non-building structures",
+      "options": {
+        "A": " Building Code",
+        "B": " Building by laws",
+        "C": " IS Code",
+        "D": " Procedure"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "49": {
+      "id": "49",
+      "question": " Combination of two or more plots as a single plot is called ",
+      "options": {
+        "A": " Amalgamation",
+        "B": " Frontage",
+        "C": " Bifurcation",
+        "D": " Building set back"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "50": {
+      "id": "50",
+      "question": " The property by which lime will set in damp place ",
+      "options": {
+        "A": " Harated Lime",
+        "B": " Hydraulicity",
+        "C": " Calcination",
+        "D": " Slaking"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "51": {
+      "id": "51",
+      "question": " The deformation per unit length is called ",
+      "options": {
+        "A": " Stress",
+        "B": " Strain",
+        "C": " Young’s Modulus",
+        "D": " Bulk Modulus"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "52": {
+      "id": "52",
+      "question": " The unit of force in CGS system of unit is called ",
+      "options": {
+        "A": " Dyne",
+        "B": " Newton",
+        "C": " Kilogram",
+        "D": " All of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "53": {
+      "id": "53",
+      "question": " Two forces act at an angle of 120°",
+      "options": {
+        "A": " 20 Kg",
+        "B": " 25 Kg",
+        "C": " 30 Kg",
+        "D": " 35 Kg"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "54": {
+      "id": "54",
+      "question": " The moment of inertia of circular Iamina of diameter (d) about an axis perpendicular to the plane of the lamina and passing through its centre   ",
+      "options": {
+        "A": "d^4/12",
+        "B": "d^4/16",
+        "C": "d^4/24",
+        "D": "d^4/32"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "55": {
+      "id": "55",
+      "question": " Two loads of 50 kg and 75 kg are hung at the ends of a rope passing over a smooth pulley shown in ﬁgure below",
+      "options": {
+        "A": " 50 kg",
+        "B": " 75 kg",
+        "C": " 25 kg",
+        "D": " 60 kg"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "56": {
+      "id": "56",
+      "question": " A body of weight 300 KN is placed on a horizontal plane",
+      "options": {
+        "A": " 50 KN",
+        "B": " 65 KN",
+        "C": " 75 KN",
+        "D": " 85 KN"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "57": {
+      "id": "57",
+      "question": " The forces whose line of action lie on the same lines are known as ",
+      "options": {
+        "A": " Coplanar forces",
+        "B": " Collinear forces",
+        "C": " Concurrent forces",
+        "D": " Equilibrant forces"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "58": {
+      "id": "58",
+      "question": " A dimension is stated as 28 � 0",
+      "options": {
+        "A": " 28 mm",
+        "B": " +0.02 mm",
+        "C": " – 0.02 mm",
+        "D": " 0.04 mm"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "59": {
+      "id": "59",
+      "question": " Which of the following is not the correct method of expressing a Fit under BIS system of limits and ﬁts ? ",
+      "options": {
+        "A": " 50 H8/g7",
+        "B": " 50 g7/H8",
+        "C": " 50 H9-g7",
+        "D": " 50 H9/g7"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "60": {
+      "id": "60",
+      "question": " Identify the Pneumatic symbol",
+      "options": {
+        "A": " Electric motor",
+        "B": " Pump",
+        "C": " Hydraulic motor",
+        "D": " Accumulator"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "61": {
+      "id": "61",
+      "question": " Telescopic gauge is used for ",
+      "options": {
+        "A": " Measuring inside size of slots or holes",
+        "B": " Checking taper bores",
+        "C": " Checking the clearance between mating surfaces",
+        "D": " Check pitch of the given screw"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "62": {
+      "id": "62",
+      "question": " In a M20 thread, M denotes ",
+      "options": {
+        "A": " Metric",
+        "B": " Millimeter",
+        "C": " Morse",
+        "D": " Major diameter"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "63": {
+      "id": "63",
+      "question": " The least count of Vernier bevel protractor is ",
+      "options": {
+        "A": " 1°",
+        "B": " 0.5°",
+        "C": " 5\u0027",
+        "D": " 5\u0027"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "64": {
+      "id": "64",
+      "question": " The minimum edge distance for rivets of diameter (d) in steel plates shall be ",
+      "options": {
+        "A": " 2d",
+        "B": " 3d",
+        "C": " 1.5d",
+        "D": " 2.5d"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "65": {
+      "id": "65",
+      "question": " A heat engine converts the heat energy from fuel combustion or any other source into which type of work ? ",
+      "options": {
+        "A": " Electrical work",
+        "B": " Mechanical work",
+        "C": " Pressure work",
+        "D": " None of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "66": {
+      "id": "66",
+      "question": " The ignition quality of petrol is expressed by ",
+      "options": {
+        "A": " Cetane number",
+        "B": " Octane number",
+        "C": " Caloriﬁc value",
+        "D": " All of these"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "67": {
+      "id": "67",
+      "question": " General gas equation is ",
+      "options": {
+        "A": " pv \u003d RT",
+        "B": " pv \u003d mRT",
+        "C": " pv \u003d constant",
+        "D": " pvn \u003d constant"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "68": {
+      "id": "68",
+      "question": " A system which is completely uninﬂuenced by the surrounding is called   ",
+      "options": {
+        "A": " Open System",
+        "B": " Closed System",
+        "C": " lsolated System",
+        "D": " Properties of System"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "69": {
+      "id": "69",
+      "question": " When a process are performed on a system in such a way that the ﬁnal state is identical with initial state known as ",
+      "options": {
+        "A": " State of a system",
+        "B": " Thermodynamic cycle",
+        "C": " Thermodynamic property",
+        "D": " Zeroth Law of Thermodynamics"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "70": {
+      "id": "70",
+      "question": " The extension line should extend 3 mm beyond the ",
+      "options": {
+        "A": " Outline",
+        "B": " Centre line",
+        "C": " Dimension line",
+        "D": " Hidden line"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "71": {
+      "id": "71",
+      "question": " The amount of heat absorbed to evaporate 1 Kg of water from its saturation temperature, without change of temperature, is called ",
+      "options": {
+        "A": " Sensible heat of water",
+        "B": " Latent heat of vaporization",
+        "C": " Enthalpy of steam",
+        "D": " Entropy of steam"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "72": {
+      "id": "72",
+      "question": " lf petrol is used in a diesel engine, then ",
+      "options": {
+        "A": " Low power will be produced",
+        "B": " Efﬁciency will be low",
+        "C": " Higher knocking will occur",
+        "D": " Black smoke will be produced"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "73": {
+      "id": "73",
+      "question": " When the whole body is sectioned at its middle, then the sectional view is obtained is ",
+      "options": {
+        "A": " Half section",
+        "B": " Full section",
+        "C": " Off-set section",
+        "D": " Broken section"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "74": {
+      "id": "74",
+      "question": " The formula for ﬁnding the volume of a solid sphere is  ",
+      "options": {
+        "A": " 1/3  π r^3",
+        "B": " 4/3 π r^3",
+        "C": " 3/4 π d^3",
+        "D": " 4/3 π r^h"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "75": {
+      "id": "75",
+      "question": " If x + y \u003d 32 and x – y \u003d 10, then the value of x is ",
+      "options": {
+        "A": " 11",
+        "B": " 22",
+        "C": " 42",
+        "D": " 21"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "76": {
+      "id": "76",
+      "question": " Find the mean in the numbers 18, 22, 15, 32, 10, 23, 20",
+      "options": {
+        "A": " 20",
+        "B": " 32",
+        "C": " 18",
+        "D": " 15"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "77": {
+      "id": "77",
+      "question": " A pyramid with a square base has __________ Faces",
+      "options": {
+        "A": " 4",
+        "B": " 5",
+        "C": " 6",
+        "D": " 8"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "78": {
+      "id": "78",
+      "question": " Melting point of ice is ",
+      "options": {
+        "A": " 0°F",
+        "B": " 100°C",
+        "C": " 100°F",
+        "D": " 32°F"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "79": {
+      "id": "79",
+      "question": " If the circumference of the square is 16 cm then the area of the same is _______ cm2",
+      "options": {
+        "A": " 16",
+        "B": " 32",
+        "C": " 64",
+        "D": " 25"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "80": {
+      "id": "80",
+      "question": " The lateral development of a cylinder is of __________ shape",
+      "options": {
+        "A": " Triangle",
+        "B": " Circle",
+        "C": " Ellipse",
+        "D": " Rectangle"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "81": {
+      "id": "81",
+      "question": " In a cabinet type of oblique projection, the receding edge is taken as ",
+      "options": {
+        "A": " Half",
+        "B": " Full",
+        "C": " 85%",
+        "D": " Double"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "82": {
+      "id": "82",
+      "question": " When a 10 cm line in a drawing represents a 5 cm edge of an actual object then the scale of drawing is ",
+      "options": {
+        "A": " 1 : 1",
+        "B": " 5 : 10",
+        "C": " 1 : 2",
+        "D": " 2 : 1"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "83": {
+      "id": "83",
+      "question": " Lines of hidden edges are drawn with ",
+      "options": {
+        "A": " Continuous thick lines",
+        "B": " Dashed lines",
+        "C": " Alternately long and short lines",
+        "D": " Wavy lines"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "84": {
+      "id": "84",
+      "question": " lf a line is inclined at 45° to the HP and 30° to the VP, its front view is inclined at ",
+      "options": {
+        "A": " 30° to XY",
+        "B": " Between 30° and 45° to XY",
+        "C": " 45° to XY",
+        "D": " Greater than 45°"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "85": {
+      "id": "85",
+      "question": " What is the nominal shape of septic tank ?   ",
+      "options": {
+        "A": " Square",
+        "B": " Circular",
+        "C": " Rectangle",
+        "D": " Oval"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "86": {
+      "id": "86",
+      "question": " Which gas is mainly produced in septic tank ? ",
+      "options": {
+        "A": " Oxygen",
+        "B": " Nitrogen",
+        "C": " Hydrogen",
+        "D": " Hydrogen sulphide"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "87": {
+      "id": "87",
+      "question": " Which type of trap is used in Indian water closet ? ",
+      "options": {
+        "A": " S Trap",
+        "B": " P Trap",
+        "C": " U Trap",
+        "D": " Gully Trap"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "88": {
+      "id": "88",
+      "question": " What is the ﬁrst stage in sewage treatment process ? ",
+      "options": {
+        "A": " Sedimentation",
+        "B": " Filtration",
+        "C": " Screening",
+        "D": " Softening"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "89": {
+      "id": "89",
+      "question": " Which device is used to prevent sewer gases from entering the building ? ",
+      "options": {
+        "A": " Filter",
+        "B": " Ventilator",
+        "C": " Vacuum Pump",
+        "D": " Trap"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "90": {
+      "id": "90",
+      "question": " What is the name of the water coming out of the kitchen, bathroom, wash basin ? ",
+      "options": {
+        "A": " Sullage",
+        "B": " Garbage",
+        "C": " Sewage",
+        "D": " Discharge"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "91": {
+      "id": "91",
+      "question": " Poise is the unit of ",
+      "options": {
+        "A": " Mass density",
+        "B": " Kinematic viscosity",
+        "C": " Viscosity",
+        "D": " Velocity gradient"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "92": {
+      "id": "92",
+      "question": " Mass per unit volume is known as ",
+      "options": {
+        "A": " Speciﬁc gravity",
+        "B": " Density",
+        "C": " Viscosity",
+        "D": " Discharge"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "93": {
+      "id": "93",
+      "question": " Manometer is a device used for measuring ",
+      "options": {
+        "A": " Pressure at any point in a ﬂuid",
+        "B": " Velocity at any point in a ﬂuid",
+        "C": " Discharge of a ﬂuid",
+        "D": " Temperature at any point in a ﬂuid"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "94": {
+      "id": "94",
+      "question": " The increase of temperature ",
+      "options": {
+        "A": " lncrease the viscosity of liquid",
+        "B": " Decrease the viscosity of liquid",
+        "C": " Decrease the viscosity of gas",
+        "D": " Partially increase or decrease the viscosity of liquid"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "95": {
+      "id": "95",
+      "question": " Pitot Tube is used for measurement of ",
+      "options": {
+        "A": " Pressure",
+        "B": " Discharge",
+        "C": " Temperature",
+        "D": " Fluid ﬂow velocity"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "96": {
+      "id": "96",
+      "question": " A Francis Turbine is ",
+      "options": {
+        "A": " An impulse turbine",
+        "B": " A radial ﬂow impulse turbine",
+        "C": " An axial ﬂow turbine",
+        "D": " A reaction radial ﬂow turbine"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "97": {
+      "id": "97",
+      "question": " An object situated in ﬁrst quadrant, that means ",
+      "options": {
+        "A": " Below HP and behind VP",
+        "B": " Above HP and behind VP",
+        "C": " Above HP and in front of VP",
+        "D": " Below HP and in front of VP"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "98": {
+      "id": "98",
+      "question": " The Standard size of D3 Drawing board is ",
+      "options": {
+        "A": " 700 × 500 × 25 mm",
+        "B": " 700 × 500 × 15 mm",
+        "C": " 500 × 350 × 25 mm",
+        "D": " 500 × 350 × 15 mm"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "99": {
+      "id": "99",
+      "question": " Dodecahedron is a solid having __________ equal and regular pentagons",
+      "options": {
+        "A": " 10",
+        "B": " 11",
+        "C": " 12",
+        "D": " 15"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    },
+    "100": {
+      "id": "100",
+      "question": " The view drawn by taking actual dimension without preparing isometric scale is called   ",
+      "options": {
+        "A": " Isometric View",
+        "B": " Isometric Projection",
+        "C": " Oblique Projection",
+        "D": " Perspective Projection"
+      },
+      "answer_correct": "",
+      "answer_user": ""
+    }
+  }
+}

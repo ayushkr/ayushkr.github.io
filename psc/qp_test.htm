@@ -1,0 +1,10 @@
+
+<div  ng-id=one.id ng-repeat="(key,one) in qp.questions" class="w3-panel w3-card " >
+
+    <p>{{one.id}}. {{one.question}}</p>
+    <div ng-repeat="(key,op) in one.options">
+        <button class="w3-button w3-light-gray w3-margin-bottom" ng-click="answer(one.id, key, one.answer_correct)"> 
+            {{key}}) {{op}}   
+        </button>
+    </div>
+</div>

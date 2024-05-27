@@ -1,0 +1,1012 @@
+Question Booklet Sl. No.
+
+068/21
+Question Booklet Alpha Code
+
+A
+
+A
+Total Number of Questions : 100
+
+Time : 75 Minutes
+Maximum Marks : 100
+
+INSTRUCTIONS TO CANDIDATES
+1. The Question Paper will be given in the form of a Question Booklet. There will be four
+versions of Question Booklets with Question Booklet Alpha Code viz. A, B, C & D.
+2. The Question Booklet Alpha Code will be printed on the top left margin of the facing sheet
+of the Question Booklet.
+3. The Question Booklet Alpha Code allotted to you will be noted in your seating position in
+the Examination Hall.
+4. If you get a Question Booklet where the alpha code does not match to the allotted alpha
+code in the seating position, please draw the attention of the Invigilator IMMEDIATELY.
+5. The Question Booklet Serial Number is printed on the top right margin of the facing sheet. If your
+Question Booklet is un-numbered, please get it replaced by new Question Booklet with same
+alpha code.
+6. The Question Booklet will be sealed at the middle of the right margin. Candidate should
+not open the Question Booklet, until the indication is given to start answering.
+7. Immediately after the commencement of the examination, the candidate should check that
+the Question Booklet supplied to him/her contains all the 100 questions in serial order. The
+Question Booklet does not have unprinted or torn or missing pages and if so he/she should
+bring it to the notice of the Invigilator and get it replaced by a complete booklet with same alpha
+code. This is most important.
+8. A blank sheet of paper is attached to the Question Booklet. This may be used for rough
+work.
+9. Please read carefully all the instructions on the reverse of the Answer Sheet before
+marking your answers.
+10. Each question is provided with four choices (A), (B), (C) and (D) having one correct answer.
+Choose the correct answer and darken the bubble corresponding to the question number
+using Blue or Black Ball Point Pen in the OMR Answer Sheet.
+11. Each correct answer carries 1 mark and for each wrong answer 1/3 mark will be
+deducted. No negative mark for unattended questions.
+12. No candidate will be allowed to leave the examination hall till the end of the session and
+without handing over his/her Answer Sheet to the Invigilator. Candidates should ensure
+that the Invigilator has veriﬁed all the entries in the Register Number Coding Sheet and
+that the Invigilator has afﬁxed his/her signature in the space provided.
+13. Strict compliance of instructions is essential. Any malpractice or attempt to commit any
+kind of malpractice in the Examination will result in the disqualiﬁcation of the candidate.
+-1-
+
+068/21
+
+A
+
+-2-
+
+068/21
+1. Cumulative errors that are proportional to
+A) √L
+
+B) L
+
+C) L2
+
+D) I/2
+
+2. _________ are the ends of the survey lines which command the boundaries of the
+survey.
+A) Tie station
+
+B) Main station
+
+C) Base line
+
+D) None of these
+
+3. The offset should not be longer than
+A) 30 m
+
+B) 20 m
+
+C) 15 m
+
+D) 10 m
+
+4. In optical square the angle between the ﬁrst incident ray and the last reﬂected ray is
+_________ the angle between them the two mirrors.
+A) half
+
+B) twice
+
+C) same
+
+D) none of these
+
+5. For compass survey the direction from a survey station to some well deﬁned
+permanent object, or the ﬁrst line of survey is known as
+A) True bearing
+
+B) Magnet bearing
+
+C) Arbitrary bearing
+
+D) All of these
+
+6. The following are the bearing of the line AB and AC : AB N15 15E, AC N87 10E.
+Calculate the angle BAC.
+A) 71° 05'
+
+B) 71° 55'
+
+C) 71° 15'
+
+D) 61° 15'
+
+7. The image formed on the plane of cross hair by the objective is
+A) Virtual and Inverted
+B) Magniﬁed and Inverted
+C) Real and Inverted
+D) None of these
+
+A
+
+-3-
+
+068/21
+8. The method chieﬂy used for locating the details from stations, which have been
+previously established by triangulation
+A) Resection
+
+B) Radiation
+
+C) Intersection
+
+D) Traversing
+
+9. The absence of Chromatic Aberration is known as
+A) Aplantation
+
+B) Achromatism
+
+C) Brightness
+
+D) None of these
+
+10. For locating the river which method of plane table is used ?
+A) Radiation
+
+B) Intersection
+
+C) Traversing
+
+D) Resection
+
+11. The effect of curvature is to cause the objects sighted appear ___________ than
+they really are
+A) Higher
+
+B) Lower
+
+C) Same
+
+D) None of these
+
+12. The effect of refraction is
+A) Not constant
+
+B) Constant
+
+C) Zero
+
+D) None of these
+
+13. In total station data is stored in
+A) Pen drive
+
+B) Data Card
+
+C) Micro Processor
+
+D) External Hardware
+
+14. The minimum clearance kept between the Grillage beam in Grillage foundation is
+A) 7 cm
+
+B) 8 cm
+
+C) 10 cm
+
+D) 14 cm
+
+15. The pile anchor down the structure subjected to uplift pressure due to overturning
+moment
+
+A
+
+A) Sheet pile
+
+B) Uplift pile
+
+C) Batter pile
+
+D) Screw pile
+-4-
+
+068/21
+16. Safe permissible load on coursed rubble in cement mortar
+A) 90 T/M2
+
+B) 45 T/M2
+
+C) 88 T/M2
+
+D) 100 T/M2
+
+17. The depth of lintel should be
+A) 15 cm
+
+B) 8 cm
+
+C) 10 cm
+
+D) 20 cm
+
+18. The diameter of bar used in lintel for span 1.5 to 2 m
+A) 16 mm
+
+B) 10 mm
+
+C) 6 mm
+
+D) 12 mm
+
+19. The sloping surface used to provide an easy connection between ﬂoor
+A) Stair
+
+B) Ramp
+
+C) Lift
+
+D) Escalator
+
+20. What is the alignment of cross joint along the plumb line ?
+A) Lintel
+
+B) Perpend
+
+C) Bed Block
+
+D) Vertical Line
+
+21. The process of ﬁlling hollow space of walls before plastering is known as
+A) Peeling
+
+B) Blistering
+
+C) Hacking
+
+D) Dubbing out
+
+22. Additional Pozzolana to ordinary portland cement increases
+A) Bleeding
+B) Shrinkage
+C) Permeability
+D) Heat of Hydration
+23. Wrought iron is manufactured from pig iron by
+
+A
+
+A) Reﬁning
+
+B) Pudding
+
+C) Shingling
+
+D) All the above
+-5-
+
+068/21
+24. Temporary structure to support arch during its construction
+A) Shuttering
+
+B) Support
+
+C) Post
+
+D) Centering
+
+25. The straight line which is generating the surface of the cone is called
+A) Generator
+
+B) Vertex
+
+C) Axis
+
+D) Base
+
+26. The point of contact between the focal sphere and section plane is called
+A) Vertex
+
+B) Axis
+
+C) Generator
+
+D) Focus
+
+27. For reducing and enlarging drawing from an available drawing without converting
+numerical value is called
+A) Compass
+B) Proportional Divider
+C) Set square
+D) Planimeter
+28. In ﬁrst angle projection object is situated ________ of the observers eye and the
+plane of projection.
+A) Infront
+B) In between
+C) None of these
+D) Both A and B
+29. A solid having four equal equilateral triangular faces
+A) Pyramid
+
+B) Tetrahedron
+
+C) Cone
+
+D) Polygon
+
+30. An actual length of 5 m of a room is represented by 25 mm length on drawing RF
+will be
+
+A
+
+A) 1 : 20
+
+B) 1 : 200
+
+C) 1 : 2000
+
+D) 1 : 2
+-6-
+
+068/21
+31. The amount of water held in the soil after excess gravitational water has been
+drained
+A) Wilting coefﬁcient
+
+B) Saturation capacity
+
+C) Field capacity
+
+D) None of these
+
+32. The Canal located outside the command area meant primarily to convey water from
+one source of supply to another within the same
+A) Feeder Canal
+
+B) Distributory
+
+C) Diversion Canal
+
+D) None of these
+
+33. The structure constructed at the off take of the canal adjacent to the river under
+sluice
+A) Diversion head work
+
+B) Outlet
+
+C) Inlet
+
+D) Head Regulator
+
+34. The usual capacity of tube well is _________ cumecs.
+A) 0.056
+
+B) 0.56
+
+C) 0.004
+
+D) 0.040
+
+35. Duty of an irrigation tube well is _________ than that of a canal irrigation.
+A) Higher
+
+B) Lower
+
+C) Same
+
+D) None of these
+
+36. The property of a ﬂuid which offers resistance to the movement of one layer of ﬂuid
+over another layer of ﬂuid
+A) Speciﬁc Gravity
+
+B) Viscosity
+
+C) Density
+
+D) None of these
+
+37. The rate of increase of pressure in a vertical direction equal to weight density of ﬂuid
+at that point
+A) Hooks Law
+
+B) Hydraulics Law
+
+C) Hydrostatic Law
+
+D) None of these
+
+38. Piezometer is used for measuring
+
+A
+
+A) Velocity
+
+B) Pressure
+
+C) Temperature
+
+D) Viscosity
+-7-
+
+068/21
+39. The type of ﬂow in which the ﬂuid characteristics like velocity, pressure, density etc.
+do not change with time
+A) Steady ﬂow
+B) Uniform ﬂow
+C) Compressible ﬂow
+D) Laminar ﬂow
+40. Command used to remove the selected object from a drawing
+A) Remove
+
+B) Erase
+
+C) Extrude
+
+D) All the above
+
+41. Which command create a new objects parallel to the original object ?
+A) Parallel
+
+B) Offset
+
+C) Copy
+
+D) Mirror
+
+42. Which command draw line that extends inﬁnity in both direction ?
+A) Line
+
+B) Poly line
+
+C) X Line
+
+D) None of these
+
+43. Brick walls are measured in M2 if the thickness of the wall is
+A) 10 cm
+
+B) 15 cm
+
+C) 20 cm
+
+D) None of these
+
+44. According to Indian Standard Institute the actual size of modular brick is
+A) 23*11.5*7.5 cm
+
+B) 25*13*7.5 cm
+
+C) 19*9*9 cm
+
+D) 20*10*10 cm
+
+45. The measurement is not made in M2 ion case of
+A) DPC
+
+B) Form Works
+
+C) Concrete Jeffries
+
+D) R. C. Chajja
+
+46. Due to change in price level, a revised estimate is prepared if the sanctioned estimate
+exceeds
+A) 2%
+
+B) 2.5%
+
+C) 4%
+
+D) 5%
+
+47. While preparing a detailed estimate area should be measured correct to
+
+A
+
+A) .01 M2
+
+B) .02 M2
+
+C) .001 M2
+
+D) .0001 M2
+-8-
+
+068/21
+48. A _________ is a set of rules that specify the standard for constructed objects such
+as buildings and non-building structures.
+A) Building Code
+
+B) Building by laws
+
+C) IS Code
+
+D) Procedure
+
+49. Combination of two or more plots as a single plot is called
+A) Amalgamation
+
+B) Frontage
+
+C) Bifurcation
+
+D) Building set back
+
+50. The property by which lime will set in damp place
+A) Harated Lime
+
+B) Hydraulicity
+
+C) Calcination
+
+D) Slaking
+
+51. The deformation per unit length is called
+A) Stress
+
+B) Strain
+
+C) Young’s Modulus
+
+D) Bulk Modulus
+
+52. The unit of force in CGS system of unit is called
+A) Dyne
+
+B) Newton
+
+C) Kilogram
+
+D) All of these
+
+53. Two forces act at an angle of 120°. If the greater force is 50 Kg and their resultant
+is perpendicular to the smaller force, the smaller force is
+A) 20 Kg
+
+B) 25 Kg
+
+C) 30 Kg
+
+D) 35 Kg
+
+54. The moment of inertia of circular Iamina of diameter (d) about an axis perpendicular
+to the plane of the lamina and passing through its centre
+
+A
+
+A)d^4/12
+
+B)d^4/16
+
+C)d^4/24
+
+D)d^4/32
+
+-9-
+
+068/21
+55. Two loads of 50 kg and 75 kg are hung at the ends of a rope passing over a smooth
+pulley shown in ﬁgure below. The tension in the string is
+
+A) 50 kg
+C) 25 kg
+
+B) 75 kg
+D) 60 kg
+
+56. A body of weight 300 KN is placed on a horizontal plane. If the coefﬁcient of friction
+between the body and the horizontal plane is 0.25. Determine the horizontal force
+required to just slide the body
+A) 50 KN
+B) 65 KN
+C) 75 KN
+D) 85 KN
+57. The forces whose line of action lie on the same lines are known as
+A) Coplanar forces
+B) Collinear forces
+C) Concurrent forces
+D) Equilibrant forces
+58. A dimension is stated as 28 � 0.02 mm in a drawing. What is the tolerance ?
+A) 28 mm
+B) +0.02 mm
+C) – 0.02 mm
+D) 0.04 mm
+59. Which of the following is not the correct method of expressing a Fit under BIS system
+of limits and ﬁts ?
+A) 50 H8/g7
+B) 50 g7/H8
+C) 50 H9-g7
+
+D) 50 H9/g7
+
+60. Identify the Pneumatic symbol.
+
+A) Electric motor
+C) Hydraulic motor
+
+A
+
+B) Pump
+D) Accumulator
+-10-
+
+068/21
+61. Telescopic gauge is used for
+A) Measuring inside size of slots or holes
+B) Checking taper bores
+C) Checking the clearance between mating surfaces
+D) Check pitch of the given screw
+62. In a M20 thread, M denotes
+A) Metric
+
+B) Millimeter
+
+C) Morse
+
+D) Major diameter
+
+63. The least count of Vernier bevel protractor is
+A) 1°
+
+B) 0.5°
+
+C) 5'
+
+D) 5'
+
+64. The minimum edge distance for rivets of diameter (d) in steel plates shall be
+A) 2d
+
+B) 3d
+
+C) 1.5d
+
+D) 2.5d
+
+65. A heat engine converts the heat energy from fuel combustion or any other source
+into which type of work ?
+A) Electrical work
+
+B) Mechanical work
+
+C) Pressure work
+
+D) None of these
+
+66. The ignition quality of petrol is expressed by
+A) Cetane number
+
+B) Octane number
+
+C) Caloriﬁc value
+
+D) All of these
+
+67. General gas equation is
+A) pv = RT
+
+B) pv = mRT
+
+C) pv = constant
+
+D) pvn = constant
+
+68. A system which is completely uninﬂuenced by the surrounding is called
+
+A
+
+A) Open System
+
+B) Closed System
+
+C) lsolated System
+
+D) Properties of System
+-11-
+
+068/21
+69. When a process are performed on a system in such a way that the ﬁnal state is
+identical with initial state known as
+A) State of a system
+
+B) Thermodynamic cycle
+
+C) Thermodynamic property
+
+D) Zeroth Law of Thermodynamics
+
+70. The extension line should extend 3 mm beyond the
+A) Outline
+
+B) Centre line
+
+C) Dimension line
+
+D) Hidden line
+
+71. The amount of heat absorbed to evaporate 1 Kg of water from its saturation
+temperature, without change of temperature, is called
+A) Sensible heat of water
+
+B) Latent heat of vaporization
+
+C) Enthalpy of steam
+
+D) Entropy of steam
+
+72. lf petrol is used in a diesel engine, then
+A) Low power will be produced
+
+B) Efﬁciency will be low
+
+C) Higher knocking will occur
+
+D) Black smoke will be produced
+
+73. When the whole body is sectioned at its middle, then the sectional view is obtained is
+A) Half section
+
+B) Full section
+
+C) Off-set section
+
+D) Broken section
+
+74. The formula for ﬁnding the volume of a solid sphere is
+
+A) 1/3  π r^3
+
+B) 4/3 π r^3
+
+C) 3/4 π d^3
+
+D) 4/3 π r^h
+
+
+75. If x + y = 32 and x – y = 10, then the value of x is
+A) 11
+
+B) 22
+
+C) 42
+
+D) 21
+
+76. Find the mean in the numbers 18, 22, 15, 32, 10, 23, 20.
+A) 20
+
+A
+
+B) 32
+
+C) 18
+-12-
+
+D) 15
+
+068/21
+77. A pyramid with a square base has __________ Faces.
+A) 4
+
+B) 5
+
+C) 6
+
+D) 8
+
+
+
+78. Melting point of ice is
+A) 0°F
+
+B) 100°C
+
+C) 100°F
+
+D) 32°F
+
+79. If the circumference of the square is 16 cm then the area of the same is
+_______ cm2.
+A) 16
+
+B) 32
+
+C) 64
+
+D) 25
+
+80. The lateral development of a cylinder is of __________ shape.
+A) Triangle
+
+B) Circle
+
+C) Ellipse
+
+D) Rectangle
+
+81. In a cabinet type of oblique projection, the receding edge is taken as
+A) Half
+
+B) Full
+
+C) 85%
+
+D) Double
+
+82. When a 10 cm line in a drawing represents a 5 cm edge of an actual object then the
+scale of drawing is
+A) 1 : 1
+
+B) 5 : 10
+
+C) 1 : 2
+
+D) 2 : 1
+
+83. Lines of hidden edges are drawn with
+A) Continuous thick lines
+
+B) Dashed lines
+
+C) Alternately long and short lines
+
+D) Wavy lines
+
+84. lf a line is inclined at 45° to the HP and 30° to the VP, its front view is inclined at
+A) 30° to XY
+
+B) Between 30° and 45° to XY
+
+C) 45° to XY
+
+D) Greater than 45°
+
+85. What is the nominal shape of septic tank ?
+
+A
+
+A) Square
+
+B) Circular
+
+C) Rectangle
+
+D) Oval
+-13-
+
+068/21
+86. Which gas is mainly produced in septic tank ?
+A) Oxygen
+
+B) Nitrogen
+
+C) Hydrogen
+
+D) Hydrogen sulphide
+
+87. Which type of trap is used in Indian water closet ?
+A) S Trap
+
+B) P Trap
+
+C) U Trap
+
+D) Gully Trap
+
+88. What is the ﬁrst stage in sewage treatment process ?
+A) Sedimentation
+
+B) Filtration
+
+C) Screening
+
+D) Softening
+
+89. Which device is used to prevent sewer gases from entering the building ?
+A) Filter
+
+B) Ventilator
+
+C) Vacuum Pump
+
+D) Trap
+
+90. What is the name of the water coming out of the kitchen, bathroom, wash basin ?
+A) Sullage
+
+B) Garbage
+
+C) Sewage
+
+D) Discharge
+
+91. Poise is the unit of
+A) Mass density
+B) Kinematic viscosity
+C) Viscosity
+D) Velocity gradient
+92. Mass per unit volume is known as
+A) Speciﬁc gravity
+
+B) Density
+
+C) Viscosity
+
+D) Discharge
+
+93. Manometer is a device used for measuring
+A) Pressure at any point in a ﬂuid
+B) Velocity at any point in a ﬂuid
+C) Discharge of a ﬂuid
+D) Temperature at any point in a ﬂuid
+
+A
+
+-14-
+
+068/21
+94. The increase of temperature
+A) lncrease the viscosity of liquid
+B) Decrease the viscosity of liquid
+C) Decrease the viscosity of gas
+D) Partially increase or decrease the viscosity of liquid
+95. Pitot Tube is used for measurement of
+A) Pressure
+
+B) Discharge
+
+C) Temperature
+
+D) Fluid ﬂow velocity
+
+96. A Francis Turbine is
+A) An impulse turbine
+
+B) A radial ﬂow impulse turbine
+
+C) An axial ﬂow turbine
+
+D) A reaction radial ﬂow turbine
+
+97. An object situated in ﬁrst quadrant, that means
+A) Below HP and behind VP
+
+B) Above HP and behind VP
+
+C) Above HP and in front of VP
+
+D) Below HP and in front of VP
+
+98. The Standard size of D3 Drawing board is
+A) 700 × 500 × 25 mm
+
+B) 700 × 500 × 15 mm
+
+C) 500 × 350 × 25 mm
+
+D) 500 × 350 × 15 mm
+
+99. Dodecahedron is a solid having __________ equal and regular pentagons.
+A) 10
+
+B) 11
+
+C) 12
+
+D) 15
+
+100. The view drawn by taking actual dimension without preparing isometric scale is
+called
+
+A
+
+A) Isometric View
+
+B) Isometric Projection
+
+C) Oblique Projection
+
+D) Perspective Projection
+
+-15-
+
+068/21
+Space for Rough Work
+
+A
+
+-16-
+
+

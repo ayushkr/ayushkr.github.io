@@ -1,0 +1,52 @@
+
+<style>
+    #qp_sidebar{
+        float: left;
+        /*background-color: lightgray;*/
+    }
+
+    #qp_content{
+    }
+    .qn{
+        margin-bottom: 16px;
+        padding: 0.01em 16px;
+    }
+</style>
+
+<h3>Question papers for : 
+    <select id="jobType"  
+            onselect="alert(1)"
+            ng-model="jobSelected"  
+            ng-options="jobname for (jobname,o) in jobnames" >
+    </select>
+</h3>
+
+{{jobSelected.name}}
+
+<div style="display: flex;">
+    <div id='qp_sidebar'>
+        <div  ng-id=one.id ng-repeat="row in qp_list.list"  >
+            <button 
+                ng-click="loadQp('QP/' + row.c1 + '/e.json')"
+                class="w3-button w3-light-gray w3-margin-bottom" > 
+                {{row.c0}}. {{row.c1}} 
+            </button>
+
+        </div>
+    </div>
+
+    <div id='qp_content'>
+        <div   ng-repeat="(key,one) in qp.questions" class="w3-card qn" >
+
+            <p>{{one.id}}. {{one.question}}</p>
+            <div ng-repeat="(key,op) in one.options">
+                <button class="w3-button w3-light-gray w3-margin-bottom" ng-click="answer(one.id, key, one.answer_correct)"> 
+                    {{key}}) {{op}}   
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+

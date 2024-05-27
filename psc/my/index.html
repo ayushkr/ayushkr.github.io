@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <title>SRI PSC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        :root {
+            --blue: #1e90ff;
+            --white: #ffffff;
+            --topBarHeight:40px;
+        }
+
+        /*        .flex-container {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    background-color: DodgerBlue;
+                }
+        
+                .flex-container > div {
+                    background-color: #f1f1f1;
+                    width: 100px;
+                    margin: 10px;
+                    text-align: center;
+                    line-height: 75px;
+                    font-size: 30px;
+                }*/
+
+
+    </style>
+    <link rel="stylesheet" href="/css/w3/w3.css">
+    <link rel="stylesheet" href="/css/material/symbols/outlined.css">
+
+
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/angular-sanitize.js"></script>
+    <script src="/js/angular-route.js"></script>
+
+    <script src="./angular_user.js"></script>
+
+    <script src="./sidebar.js"></script>
+
+    <body onload="" ng-app="app1" ng-controller="ctrl1" >
+
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none;z-index: 11" id="mySidebar">
+            <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+<a href="#!ayush_home" class="w3-bar-item w3-button">Home0 </a>
+            <a href="#!red" class="w3-bar-item w3-button">red </a>
+            <a href="#!flex" class="w3-bar-item w3-button">flex </a>
+
+
+
+        </div>
+
+
+        <!--topbar-->
+        <div class="w3-top" style="z-index: 10">
+            <div class="w3-bar w3-black" style="height: var(--topBarHeight)" >
+                <a href="#" class="w3-bar-item w3-button" onclick="w3_open()">
+                    <!--<i class="fa fa-bars"></i>--> 
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>  
+                </a>
+                <span class="w3-bar-item ">My PSC</span>
+                <a href="/index.html" class="w3-bar-item w3-button">Home0 </a>
+                <a href="#/!" class="w3-bar-item w3-button">Home </a>
+                <a href="#!red" class="w3-bar-item w3-button">red </a>
+                <a href="#!qp_list" class="w3-bar-item w3-button">Qp </a>
+
+                <a href="#" class="w3-bar-item w3-button" style="float: right" onclick="signout_google()">
+                    <!--<i class="material-icons">logout</i>--> 
+                    <span class="material-symbols-outlined">
+                        logout
+                    </span>
+                </a>
+                <span id="post" class="w3-bar-item w3-button" style="float: right"> posts</span>
+            </div>
+        </div>
+
+
+
+
+        <div ng-view  
+             style="top:var(--topBarHeight);position: absolute;border: 1px ;width:100%;height: 100%;z-index: 0">
+
+            view
+
+        </div>
+
+    </body>
+</html> 

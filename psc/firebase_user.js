@@ -1,8 +1,11 @@
 var firebase;
 var database;
+var user;
+
+var myObject;
 
 function  firebase_add_listeners() {
-    firebase=firebase_init();
+    firebase = firebase_init();
 // Get a reference to the database service
     database = firebase.database();
 
@@ -14,9 +17,19 @@ function  firebase_add_listeners() {
         updateStarCount(postElement, snapshot.val());
     });
 
+    database.ref("users/").on('value', s => {
+        console.log(s.val());
+    });
+
+//    myObject = new Vue({
+//        el: '#app',
+//        data: {message: 'Hello Vue 2!'}
+//    });
 
 
 }
+
+
 
 // update the UI
 function updateStarCount(el, val) {
@@ -40,9 +53,8 @@ function  google_signin() {
                 // This gives you a Google Access Token. You can use it to access the Google API.
                 var token = credential.accessToken;
                 // The signed-in user info.
-                var user = result.user;
-                // IdP data available in result.additionalUserInfo.profile.
-                console.log(user);
+                setUser(result.user);
+
                 // ...
             }).catch((error) => {
         // Handle Errors here.
@@ -52,6 +64,7 @@ function  google_signin() {
         var email = error.email;
         // The firebase.auth.AuthCredential type that was used.
         var credential = error.credential;
+        console.log(error);
         // ...
     });
 
@@ -65,4 +78,29 @@ function signout_google() {
     }).catch((error) => {
         // An error happened.
     });
+}
+function setUser(u) {
+    user = u;
+    // IdP data available in result.additionalUserInfo.profile.
+    getUser();
+
+}
+
+function getUser() {
+    document.getElementById('user').innerText = user.displayName;
+//    if (user !== undefined) {
+//        alert("user=" + user.displayName);
+//    } else {
+//        alert("user is null=" + user);
+//    }
+}
+
+function postMessage() {
+//    database.ref(user.uid+'/'+'messages').setValue(5);
+//    database.ref('users').set({
+//    username: 'name',
+//    email: 'e',
+//    profile_picture : 'img'
+//  });
+    database.ref("users/" + user.uid + "/message").set({a: 1});
 }

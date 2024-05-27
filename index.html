@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./dark_portfolio_files/w3.css">
         <link rel="stylesheet" href="./dark_portfolio_files/css">
         <link rel="stylesheet" href="./dark_portfolio_files/font-awesome.min.css">
+        <script src="/js/vue/vue.min.js"></script>
         <style>
             body, h1,h2,h3,h4,h5,h6 {
                 font-family: "Montserrat", sans-serif
@@ -30,6 +31,9 @@
                 }
             }
         </style>
+
+
+
     </head>
     <body class="w3-black">
 
@@ -160,23 +164,13 @@
             <div class="w3-padding-64 w3-content w3-text-grey" id="projects">
                 <h2 class="w3-text-light-grey">My Projects</h2>
                 <hr style="width:200px" class="w3-opacity">
-
-                <div class="w3-section">
-                    <a href="psc/cards.htm" style="text-decoration: none">
-                    <p>
-                        <i class="fa fa-archive fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 
-                       Kerala PSC Question Paper Answers
-                    </p>
-                    </a>
-                    <p><i class="fa fa-archive fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 
-                      p2
-                    </p>
-                    <p><i class="fa fa-archive fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> 
-                       p3
-                    </p>
-                </div><br>
-
-                <!-- End projects Section -->
+                <div id="projectsLister" class="w3-section">
+                    <a v-for="project in projects" :href=project.path style="text-decoration: none"> 
+                        <p><i class="fa fa-archive fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> 
+                            {{ project.name }}
+                        </p>
+                    </a>  
+                </div>
             </div>
 
 
@@ -193,7 +187,29 @@
                 <!-- End footer -->
             </footer>
 
-            <!-- END PAGE CONTENT -->
-        </div>
 
+        </div>
+        <script>
+var vue_projects = new Vue({
+    el: '#projectsLister',
+    data: {
+        message: 'My Projects',
+        me2: 2, "part": "hello",
+        projects: [
+            {name: 'Kerala PSC Question Paper Answers', path: 'psc/index.htm'},
+            {name: 'MyPSC', path: 'psc/my/index.html'},
+            {name: 'NCVT QBank', path: 'ncvt/index.html'},
+            {name: 'Fillipino Dental(Modern- website)', path: 'clients/filipinoDental/p5site/index.html'},
+            {name: 'Colors', path: 'utils/color/index.html'},
+            {name: 'StoryMaker', path: 'clients/storyMaker/index.html'},
+            {name: 'Films', path: 'personal/telegram/films/index.html'},
+             {name: 'push', path: 'clients/webpush/index.html'},
+            {name: '----', path: '--'}
+        ],
+        o: 0
+    }
+    ,
+    a: 1
+});
+        </script>
     </body></html>

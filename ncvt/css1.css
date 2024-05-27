@@ -1,0 +1,14 @@
+.quiz-home-box .category-box div {
+    background-color: #001088;
+    padding: 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 10px;
+    flex-basis: calc(50% - 10px);
+    max-width: calc(50% - 10px);
+}
