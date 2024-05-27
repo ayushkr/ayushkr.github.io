@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Story Maker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/js/vue/vue.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+        <style>
+
+            #sachin{
+                background: #87CEEB;
+                padding: 1px;
+                content: "----";
+            }
+
+            #reenu{
+                background: #71d919;
+                padding: 1px;
+            }
+
+            #amal{
+                background: #8bfce1;
+                padding: 1px;
+            }
+
+            #aadhi{
+                background: #ff9999;
+                padding: 1px;
+            }
+
+            #Karthika{
+                background: #b4aa50;
+                padding: 1px;
+            }
+
+            #Anjali{
+                background: #efa9ef;
+                padding: 1px;
+            }
+
+
+
+        </style>
+    </head>
+
+
+    <body>
+
+
+        <div id="scenes">
+            <h1>{{ title }}</h1>
+
+            <chara id='sachin' father='Santhosh'>sachin</chara>
+            <chara>reeenu</chara>
+            <chara id='amal' father='Davis'>amal</chara>
+
+
+            <a v-for="scene in scenes" :href=scene.path style="text-decoration: none"> 
+                <p>
+                    {{ scene.name }}
+                </p>
+            </a>  
+        </div>
+
+
+        <h1>Part-1 Plot</h1>
+        <pre>
+            
+On the last day of college, 
+<chara id="sachin">sachin</chara> finally confesses his love to his classmate <chara id="Anjali">Anjali</chara>,
+who rejects him.
+After college, <chara id="sachin">sachin</chara> plans to move to the UK for higher studies,
+leaving all troubles behind, 
+but his visa application gets rejected,
+leaving him with one more chance to apply after six months.
+
+Meanwhile, 
+<chara id="sachin">sachin</chara> is aimlessly living his life,
+helping his father with deliveries from his bakery.
+On one such delivery,
+<chara id="sachin">sachin</chara> meets his old friend <chara id="amal">amal</chara> Davis and
+rekindles their friendship. 
+            
+While <chara id="sachin">sachin</chara> is still contemplating what to do next,
+<chara id="amal">amal</chara> suggests joining a GATE course in Hyderabad with him,
+until <chara id="sachin">sachin</chara> can apply again for a visa and
+ also as a backup if the application fails.
+<chara id="sachin">sachin</chara> agrees to it and moves to Hyderabad with <chara id="amal">amal</chara>.
+
+In Hyderabad, <chara id="reenu">reenu</chara>, a girl in her early twenties,
+has just joined the development team of an IT company,
+where a pompous man named <chara id="aadhi">aadhi</chara> is the senior developer.
+
+After joining, <chara id="reenu">reenu</chara> moves in with her friend <chara id="Karthika">Karthika</chara> and
+ another roommate Niharika to an apartment.
+ <chara id="aadhi">aadhi</chara> has a crush on <chara id="reenu">reenu</chara>,
+ but he parades himself as her "bestie" (best friend).
+ <chara id="sachin">sachin</chara> and <chara id="amal">amal</chara> meet <chara id="reenu">reenu</chara> and
+ her team at a wedding,
+ where the former are the groom's guests and
+ the latter are the bride's guests.
+ <chara id="sachin">sachin</chara> falls for <chara id="reenu">reenu</chara>. 
+They all strike a friendship during the wedding.
+ Due to unexpected circumstances,
+ <chara id="reenu">reenu</chara> 
+and <chara id="Karthika">Karthika</chara> choose to return to Hyderabad with <chara id="sachin">sachin</chara> and <chara id="amal">amal</chara>.
+
+<chara id="reenu">reenu</chara> is very comfortable with <chara id="sachin">sachin</chara> and
+ finds his antics funny and friendly.
+ <chara id="sachin">sachin</chara> finds a job at a fast-food restaurant 
+to stay in Hyderabad as he drops the GATE course and
+ wants to find out more about <chara id="reenu">reenu</chara>. 
+
+<chara id="amal">amal</chara> tries to hint to <chara id="reenu">reenu</chara> about <chara id="sachin">sachin</chara>'s crush through <chara id="Karthika">Karthika</chara> at a pub,
+ but she shoots him down saying <chara id="reenu">reenu</chara> is looking for someone mature 
+and accomplished and
+ not someone like <chara id="sachin">sachin</chara>, 
+who does not have a plan even for tomorrow.
+ After a lot of soul searching, 
+<chara id="sachin">sachin</chara> decides to confess his love to <chara id="reenu">reenu</chara>, 
+but she says she wants someone who is mature and settled in life.
+
+
+<chara id="sachin">sachin</chara> dejectedly decides to leave Hyderabad and
+ move to Chennai with his friend from college. 
+
+However, <chara id="reenu">reenu</chara> also develops feelings towards <chara id="sachin">sachin</chara>,
+ but she is unsure of them.
+ She tries to convince him to come back, 
+but <chara id="sachin">sachin</chara> does not respond to her calls or messages.
+
+            
+After a couple of months, 
+<chara id="Karthika">Karthika</chara> invites <chara id="sachin">sachin</chara> to her engagement party in Hyderabad.
+ <chara id="reenu">reenu</chara> tries to talk to him, 
+but <chara id="sachin">sachin</chara> acts like he has moved on and 
+informs her that his visa application has arrived and 
+he is leaving for the UK the next day from Hyderabad.
+
+
+<chara id="aadhi">aadhi</chara> accosts <chara id="sachin">sachin</chara> and <chara id="amal">amal</chara> and demands to have a conversation with them.
+ <chara id="sachin">sachin</chara> and <chara id="amal">amal</chara>, both being very drunk, 
+take the mickey out of <chara id="aadhi">aadhi</chara>, 
+remarking that <chara id="reenu">reenu</chara> will reject him as well.
+
+ To prove <chara id="sachin">sachin</chara> and <chara id="amal">amal</chara> wrong,
+ <chara id="aadhi">aadhi</chara> asks <chara id="reenu">reenu</chara> in front of everyone at the party whether she loves him,
+ and she brusquely replies 'no',
+ sparking further taunts and horse laughs from <chara id="sachin">sachin</chara> and <chara id="amal">amal</chara>.
+
+ Humiliated by this, <chara id="aadhi">aadhi</chara> vows to exact revenge on <chara id="sachin">sachin</chara> and <chara id="amal">amal</chara>,
+ and leaves the party. 
+
+<chara id="sachin">sachin</chara> is still not interested in talking to <chara id="reenu">reenu</chara> and sleeps at the party.
+
+
+The next morning, <chara id="amal">amal</chara> and <chara id="sachin">sachin</chara> leave for the airport and
+ <chara id="reenu">reenu</chara> joins them. 
+
+En route, <chara id="aadhi">aadhi</chara> and his goons ambush them,
+ but <chara id="reenu">reenu</chara> saves <chara id="sachin">sachin</chara> and <chara id="amal">amal</chara> by incapacitating <chara id="aadhi">aadhi</chara> with the pepper spray 
+that <chara id="aadhi">aadhi</chara> himself had given her and the other female staff in their office for self-defense.
+
+ <chara id="reenu">reenu</chara> confesses her love to <chara id="sachin">sachin</chara> and
+ says "From now on, we are in a long-distance relationship.
+
+ Let's see how that goes" and bids farewell.
+        </pre>
+
+
+
+
+        <script>
+var vue_projects = new Vue({
+    el: '#scenes',
+    data: {
+        title: 'Premalu 2',
+        scenes: [
+            {name: 'Foo', path: 'aa/aaa'},
+            {name: 'Bar', path: 'aa/aaa'}
+        ],
+        o: 0
+    },
+    a: 1
+});
+
+        </script>
+
+    </body>
+</html>
