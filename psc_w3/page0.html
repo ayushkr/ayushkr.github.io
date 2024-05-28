@@ -18,6 +18,7 @@
         <!--topbar-->
         <div  class="w3-top" style="z-index: 10">
             <div class="w3-bar w3-black" style="height: var(--topBarHeight)" >
+
                 <a href="#" class="w3-bar-item w3-button w3-gray" onclick="w3_open()">
                     <!--<i class="fa fa-bars"></i>--> 
                     <span class="material-symbols-outlined">
@@ -27,13 +28,14 @@
 
                 <a href="#/!" class="w3-bar-item  w3-button">SRI PSC </a>
 
-                <a href="#" class="w3-bar-item w3-button" style="float: right" onclick="signOutGoogle()()">
-                    <span class="material-symbols-outlined">logout</span>
-                </a>
-                <span id="user"  class="w3-bar-item"  style="float: right" onclick="signInGoogle()">Sign In</span>
-                <span id="post" class="w3-bar-item w3-button" style="float: right">
-                    updates <span class="w3-badge w3-red">{{updates}}</span>
-                    
+
+
+
+                <span id="post"  style="float: right">
+                    <span class="w3-badge w3-red">{{updates}}</span>
+                    <span id="user" class="w3-bar-item w3-button"  onclick="signInGoogle()">out</span>
+                    <span class="material-symbols-outlined w3-button" onclick="signOutGoogle()">logout</span>
+
                 </span>
 
             </div>

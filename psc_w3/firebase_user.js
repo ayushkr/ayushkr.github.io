@@ -75,7 +75,7 @@ function signOutGoogle() {
         // Sign-out successful.
         console.log("sign out done");
 //        alert("sign out done");
-        document.getElementById('user').innerText = "Sign In";
+        document.getElementById('user').innerText = "out";
     }).catch((error) => {
         // An error happened.
     });
