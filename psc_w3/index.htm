@@ -16,29 +16,39 @@
     <script src="./firebase_real.js"></script>
     <script src="./firebase_user.js"></script>
     <script src="./sidebar.js"></script>
-  
+
     <!--cd total-->
     <script>
+        window.onload = init;
         var vue;
-//        var obj = 0;
-        w3.includeHTML2("page0.html", () => {
-            w3.getHttpObject("page0.json", (o) => {
-//                obj = o;
-//                w3.displayObject("main", o);
-                vue = new Vue({
-                    el: '#main',
-//                    data:o,
-                    data: {
-                        items: [{message: 'Foo'}, {message: 'Bar'}],
-                        updates: 10
-                    },
-                    a: 1
-                });
 
+        function init() {
+            
+            console.log('init');
+            loadPage('page0');
+            firebase_add_listeners();
+
+
+        }
+
+        function loadPage(pageName) {
+            w3.includeHTML2(pageName + ".html", () => {
+                w3.getHttpObject(pageName + ".json", (o) => {
+//                
+//                w3.displayObject("main", o);
+                    vue = new Vue({
+                        el: '#main',
+//                    data:o,
+                        data: {
+                            items: [{message: 'Foo'}, {message: 'Bar'}],
+                            updates: 10
+                        },
+                        a: 1
+                    });
+                });
             });
 
-        });
-
+        }
 
     </script>
 
