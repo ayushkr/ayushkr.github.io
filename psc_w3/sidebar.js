@@ -23,6 +23,7 @@ function loadPage(pageName) {
                     items: [{message: 'Foo'}, {message: 'Bar'}],
                     userName: "--",
                     uid: '',
+                    question:"2+3=___ ",
                     updates: 0
                 },
                 a: 1

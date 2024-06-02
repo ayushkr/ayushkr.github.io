@@ -163,3 +163,6 @@ function postMessage() {
 //  });
     database.ref("users/" + user.uid + "/message").set({logged: Date.now()});
 }
+function ans(val) {
+    database.ref("users/" + user.uid ).set({ans: val});
+}
