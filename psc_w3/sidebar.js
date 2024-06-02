@@ -31,6 +31,7 @@ function loadPage(pageName) {
             firebase_add_listeners();
             if (user !== undefined) {
                 vue.userName = user.displayName;
+                database.ref("users/" + user.uid ).set({name: user.displayName});
             }
         });
     });
