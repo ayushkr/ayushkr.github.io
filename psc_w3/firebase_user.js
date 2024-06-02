@@ -3,11 +3,14 @@ var database;
 var user;
 
 
-
+function firebase_start() {
+    firebase = firebase_init();
+    signIn();
+}
 
 function  firebase_add_listeners() {
 
-    firebase = firebase_init();
+//    firebase = firebase_init();
 // Get a reference to the database service
     database = firebase.database();
 
@@ -24,6 +27,7 @@ function  firebase_add_listeners() {
     database.ref("users/").on('value', s => {
         console.log(s.val());
     });
+    
 
     console.log("added listener on firebase");
 
@@ -40,6 +44,64 @@ function updateStarCount(el, val) {
 }
 
 
+function signIn() {
+
+    firebase.auth().onAuthStateChanged(function (user) {
+        if (user) {
+            this.user = user;
+            database = firebase.database();
+            loadPage("page_0");
+        } else {
+            signInGoogle();
+        }
+    });
+
+//
+////    console.log("signIn" + localStorage.getItem("user"));
+//    if (localStorage.getItem("user") === "undefined") {
+//        signInGoogle();
+//    } else {
+//        user = JSON.parse(localStorage.getItem("user"));
+//        vue.userName = user.displayName;
+//        vue.uid = user.uid;
+//
+////        signInWithCustomToken();
+//
+//        database.ref("users/" + user.uid + "/message").set({logged: true});
+//        loadPage("page0");
+//
+//    }
+
+}
+
+function signOut() {
+//    localStorage.setItem("user", undefined);
+//    alert("user is logged out");
+    signOutGoogle();
+}
+
+function userReady(u) {
+    localStorage.setItem("user", JSON.stringify(u));
+    user = JSON.parse(localStorage.getItem("user"));
+    loadPage("page_0");
+    vue.userName = user.displayName;
+}
+function signInWithCustomToken() {
+    firebase_init();
+    const auth = firebase.auth();
+
+    firebase.auth()
+            .signInWithCustomToken(user.token)
+            .then((result) => {
+                console.log("signInWithCustomToken=" + result.user);
+            }).catch((error) => {
+
+        console.log(error);
+        // ...
+    });
+
+}
+
 function  signInGoogle() {
     const auth = firebase.auth();
     var provider = new firebase.auth.GoogleAuthProvider();
@@ -54,7 +116,7 @@ function  signInGoogle() {
                 // This gives you a Google Access Token. You can use it to access the Google API.
                 var token = credential.accessToken;
                 // The signed-in user info.
-                setUser(result.user);
+                userReady(result.user);
 
                 // ...
             }).catch((error) => {
@@ -75,18 +137,13 @@ function signOutGoogle() {
     firebase.auth().signOut().then(() => {
         // Sign-out successful.
         console.log("sign out done");
-//        alert("sign out done");
-        document.getElementById('user').innerText = "out";
+        alert("sign out done");
+//        document.getElementById('user').innerText = "out";
     }).catch((error) => {
         // An error happened.
     });
 }
-function setUser(u) {
-    user = u;
-    // IdP data available in result.additionalUserInfo.profile.
-    getUser();
 
-}
 
 function getUser() {
     document.getElementById('user').innerText = user.displayName;
@@ -104,5 +161,5 @@ function postMessage() {
 //    email: 'e',
 //    profile_picture : 'img'
 //  });
-    database.ref("users/" + user.uid + "/message").set({a: 1});
+    database.ref("users/" + user.uid + "/message").set({logged: Date.now()});
 }

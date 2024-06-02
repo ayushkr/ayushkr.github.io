@@ -18,33 +18,10 @@
 
     <!--cd total-->
     <script>
-        window.onload = init;
-        var vue;
 
-        function init() {
-            console.log('init');
-            loadPage('page0');
-        }
-
-        function loadPage(pageName) {
-            w3.includeHTML2(pageName + ".html", () => {
-                w3.getHttpObject(pageName + ".json", (o) => {
-//                
-//                w3.displayObject("main", o);
-                    vue = new Vue({
-                        el: '#main',
-//                    data:o,
-                        data: {
-                            items: [{message: 'Foo'}, {message: 'Bar'}],
-                            updates: 10
-                        },
-                        a: 1
-                    });
-                    firebase_add_listeners();
-                });
-            });
-
-        }
+      
 
     </script>
+
+    <span id="main"></span>
 </html> 

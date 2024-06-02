@@ -12,7 +12,7 @@
             <a href="#" class="w3-bar-item w3-button">Timetable</a>
 
 
-            <a href="/index.html" class="w3-bar-item w3-button">Exit </a>
+            <span  class="w3-bar-item w3-button" onclick="signOut()">Exit </span>
         </div>
 
         <!--topbar-->
@@ -33,10 +33,11 @@
 
                 <span id="post"  style="float: right">
                     <span class="w3-badge w3-red">{{updates}}</span>
-                    <span id="user">                
+                   
+                    <span id="user"> {{userName}}               
                         
                     </span>
-                    <span  class="material-symbols-outlined w3-button"  onclick="signInGoogle()">person</span>
+                    <!--<span  class="material-symbols-outlined w3-button"  onclick="signInGoogle()">person</span>-->
                     <!--<span class="material-symbols-outlined w3-button" onclick="signOutGoogle()">logout</span>-->
 
                 </span>
