@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
     <title>SRI PSC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,12 +22,8 @@
         var vue;
 
         function init() {
-
             console.log('init');
             loadPage('page0');
-            firebase_add_listeners();
-
-
         }
 
         function loadPage(pageName) {
@@ -44,13 +40,11 @@
                         },
                         a: 1
                     });
+                    firebase_add_listeners();
                 });
             });
 
         }
 
     </script>
-
-
-
 </html> 
