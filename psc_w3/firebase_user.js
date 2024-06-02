@@ -4,6 +4,7 @@ var user;
 
 
 
+
 function  firebase_add_listeners() {
 
     firebase = firebase_init();
