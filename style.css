@@ -1,0 +1,10 @@
+
+.w3-button {
+    width:150px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 200px;           /* Specify height of the container */
+}
